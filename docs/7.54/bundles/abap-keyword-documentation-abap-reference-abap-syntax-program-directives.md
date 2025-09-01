@@ -43,43 +43,13 @@ ABAP Doc
 
 ABAP Doc allows [declarations](javascript:call_link\('abendeclaration_glosry.htm'\) "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. ABAP development environments that support [ABAP Doc](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), such as [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), analyze the content of ABAP Doc comments, convert it to HTML, and display it appropriately.
 
--   [ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
+-   [ABAP Doc Comments](#abendoccomment-1--------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
 
--   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#abendoccomment-3--------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
 
--   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
+-   [Documentation Links](#abendoccomment-5--------test-relations---@ITOC@@ABENDOCCOMMENT_6)
 
--   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
-
--   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
-
--   [Test Relations](#@@ITOC@@ABENDOCCOMMENT_6)
-
--   [Guidelines](#@@ITOC@@ABENDOCCOMMENT_7)
-
-ABAP Doc Comments
-
-A comment for ABAP Doc is introduced using the string "!. This is a special form of a normal [line end comment](javascript:call_link\('abencomment.htm'\)) that is introduced using ". The following rules must be applied if an ABAP Doc comment is to be read correctly:
-
--   An ABAP Doc comment is one of the following:
-
--   A single [comment line](javascript:call_link\('abencomment_line_glosry.htm'\) "Glossary Entry") that only contains the comment
-
--   A multiline block of consecutive comment lines The content of a block is summarized into a single ABAP Doc comment.
-
--   An ABAP Doc comment (a line or a block of lines) must be linked to one [declaration statement](javascript:call_link\('abendeclaration_statement_glosry.htm'\) "Glossary Entry") only:
-
--   If the declaration statement does not create a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry"), an ABAP Doc comment can be placed directly in front of the declaration statement, without using spaces as separators.
-
--   If the declaration statement makes a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry"), the colon must be placed after the keyword. An ABAP Doc comment can be placed in front of the identifier of every declared entity.
-
-ABAP Doc comments are not allowed anywhere else.
-
--   A one-line ABAP Doc comment cannot be empty. Lines without content can be used as formatting in blocks.
-
--   An ABAP Doc comment can contain special tokens and tags for documenting the parameter interface of procedures, or for formatting.
-
--   The special characters ", ', <, \>, @, {, |, and } can, if necessary, be masked using &quot;, &apos;, &lt;, &gt;, &#64;, &#123;, &#124;, and &#125;.
+-   [Guidelines](#abendoccomment-7---abap-doc-comments--a-comment-for-abap-doc-is-introduced-using-the-string-----this-is-a-special-form-of-a-normal--line-end-comment--javascript-call-link---abencomment-htm-----that-is-introduced-using----the-following-rules-must-be-applied-if-an-abap-doc-comment-is-to-be-read-correctly-------an-abap-doc-comment-is-one-of-the-following-------a-single--comment-line--javascript-call-link---abencomment-line-glosry-htm-----glossary-entry---that-only-contains-the-comment------a-multiline-block-of-consecutive-comment-lines-the-content-of-a-block-is-summarized-into-a-single-abap-doc-comment-------an-abap-doc-comment--a-line-or-a-block-of-lines--must-be-linked-to-one--declaration-statement--javascript-call-link---abendeclaration-statement-glosry-htm-----glossary-entry---only-------if-the-declaration-statement-does-not-create-a--chained-statement--javascript-call-link---abenchained-statement-glosry-htm-----glossary-entry----an-abap-doc-comment-can-be-placed-directly-in-front-of-the-declaration-statement--without-using-spaces-as-separators-------if-the-declaration-statement-makes-a--chained-statement--javascript-call-link---abenchained-statement-glosry-htm-----glossary-entry----the-colon-must-be-placed-after-the-keyword--an-abap-doc-comment-can-be-placed-in-front-of-the-identifier-of-every-declared-entity---abap-doc-comments-are-not-allowed-anywhere-else-------a-one-line-abap-doc-comment-cannot-be-empty--lines-without-content-can-be-used-as-formatting-in-blocks-------an-abap-doc-comment-can-contain-special-tokens-and-tags-for-documenting-the-parameter-interface-of-procedures--or-for-formatting-------the-special-characters--------------, {, |, and } can, if necessary, be masked using &quot;, &apos;, &lt;, &gt;, &#64;, &#123;, &#124;, and &#125;.
 
 If this rule is broken, a syntax check warning is produced.
 
@@ -404,9 +374,7 @@ Pragmas are [program directives](javascript:call_link\('abenprogram_directive_gl
 
 More information can be found in the following:
 
--   [Syntax of Pragmas](#@@ITOC@@ABENPRAGMA_1)
-
--   [Positioning of Pragmas in ABAP Source Code](#@@ITOC@@ABENPRAGMA_2)
+-   [Syntax of Pragmas](#abenpragma-1--------positioning-of-pragmas-in-abap-source-code---@ITOC@@ABENPRAGMA_2)
 
 Syntax of Pragmas
 

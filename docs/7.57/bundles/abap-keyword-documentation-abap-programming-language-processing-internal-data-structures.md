@@ -26,51 +26,9 @@ Structures are data objects that consist of components of any data type that are
 
 The following sections give an overview of structures in ABAP.
 
--   [Kinds of Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_1)
--   [Use of Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_2)
-    -   [Use of Deep Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_3)
-    -   [Use of Deep DDIC Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_4)
--   [Boxed Components](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_5)
-
-Programming Guidelines
-
--   [Names of Structure Components](javascript:call_link\('abenstruc_comp_names_guidl.htm'\) "Guideline")
--   [Do not include components from structures](javascript:call_link\('abenincluding_structures_guidl.htm'\) "Guideline")
-
-Kinds of Structures   
-
-Depending on the type of component, structures are named as follows:
-
--   Flat structures do not contain any [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") components. They only contain components with flat data types, such as elementary types c, n, d, t, decfloat16, decfloat34, f, b, s, i, int8, p, x, utclong, or structures with these types.
--   Flat character-like structures are flat structures with exclusively [character-like](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") components.
--   Nested structures contain at least one [substructure](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry"). Whether a nested structure is flat or character-like depends on the properties of all components.
--   Deep structures contain at least one [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") component in any nesting level. Possible deep components include strings, internal tables, boxed components, data or object references.
-
-A structure that contains static or dynamic components is formally also a [static](javascript:call_link\('abenstatic_data_object_glosry.htm'\) "Glossary Entry") or [dynamic data object](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"), respectively.
-
-The following figure illustrates a deep structure.
-
-![Figure](abdoc_deep_structure.gif)
-
-Hints
-
--   The term "nested structure" must not be confused with the term "deep structure". A nested structure is flat if it contains exclusively flat components and subcomponents. A nested structure is deep when it has at least one deep component or subcomponent.
--   Generally, the components of a structure are not stored directly one after the other in memory and [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") may occur.
--   The maximum number of bytes a structure can contain including alignment gaps is the maximum length of a field of type x, which is stored in the constant TYPE\_X\_MAX\_LENGTH of the class CL\_ABAP\_ELEMDESCR. Components that are reference variables, strings or internal tables each use 8 bytes.
-
-Example
-
-Nested structure. The substructure is created using a reference to the DDIC structure SCARR for the second component. The components are accessed using the structure component selector (\-).
-
-DATA:
-  BEGIN OF struct,
-    name  TYPE c LENGTH 10 VALUE 'SCARR',
-    scarr TYPE scarr,
-  END OF struct.
-SELECT SINGLE \*
-       FROM scarr
-       WHERE carrid = 'LH'
-       INTO CORRESPONDING FIELDS OF @struct-scarr.
+-   [Kinds of Structures](#abendata-objects-structure-1-------use-of-structures---@ITOC@@ABENDATA_OBJECTS_STRUCTURE_2)
+    -   [Use of Deep Structures](#abendata-objects-structure-3-----------use-of-deep-ddic-structures---@ITOC@@ABENDATA_OBJECTS_STRUCTURE_4)
+-   [Boxed Components](#abendata-objects-structure-5---programming-guidelines-------names-of-structure-components--javascript-call-link---abenstruc-comp-names-guidl-htm-----guideline--------do-not-include-components-from-structures--javascript-call-link---abenincluding-structures-guidl-htm-----guideline----kinds-of-structures-----depending-on-the-type-of-component--structures-are-named-as-follows-------flat-structures-do-not-contain-any--deep--javascript-call-link---abendeep-glosry-htm-----glossary-entry---components--they-only-contain-components-with-flat-data-types--such-as-elementary-types-c--n--d--t--decfloat16--decfloat34--f--b--s--i--int8--p--x--utclong--or-structures-with-these-types------flat-character-like-structures-are-flat-structures-with-exclusively--character-like--javascript-call-link---abencharlike-data-object-glosry-htm-----glossary-entry---components------nested-structures-contain-at-least-one--substructure--javascript-call-link---abensubstructure-glosry-htm-----glossary-entry----whether-a-nested-structure-is-flat-or-character-like-depends-on-the-properties-of-all-components------deep-structures-contain-at-least-one--deep--javascript-call-link---abendeep-glosry-htm-----glossary-entry---component-in-any-nesting-level--possible-deep-components-include-strings--internal-tables--boxed-components--data-or-object-references---a-structure-that-contains-static-or-dynamic-components-is-formally-also-a--static--javascript-call-link---abenstatic-data-object-glosry-htm-----glossary-entry---or--dynamic-data-object--javascript-call-link---abendynamic-data-object-glosry-htm-----glossary-entry----respectively---the-following-figure-illustrates-a-deep-structure-----figure--abdoc-deep-structure-gif---hints------the-term--nested-structure--must-not-be-confused-with-the-term--deep-structure---a-nested-structure-is-flat-if-it-contains-exclusively-flat-components-and-subcomponents--a-nested-structure-is-deep-when-it-has-at-least-one-deep-component-or-subcomponent------generally--the-components-of-a-structure-are-not-stored-directly-one-after-the-other-in-memory-and--alignment-gaps--javascript-call-link---abenalignment-gap-glosry-htm-----glossary-entry---may-occur------the-maximum-number-of-bytes-a-structure-can-contain-including-alignment-gaps-is-the-maximum-length-of-a-field-of-type-x--which-is-stored-in-the-constant-type--x--max--length-of-the-class-cl--abap--elemdescr--components-that-are-reference-variables--strings-or-internal-tables-each-use-8-bytes---example--nested-structure--the-substructure-is-created-using-a-reference-to-the-ddic-structure-scarr-for-the-second-component--the-components-are-accessed-using-the-structure-component-selector--------data----begin-of-struct------name--type-c-length-10-value--scarr-------scarr-type-scarr----end-of-struct--select-single-----------from-scarr--------where-carrid----lh---------into-corresponding-fields-of-struct-scarr.
 cl\_demo\_output=>new(
 )->write\_data( struct-name
 )->write\_data( struct-scarr-carrid

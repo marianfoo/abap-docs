@@ -405,8 +405,7 @@ If the formal parameter has a generic type, the remaining type properties are de
 
 If a literal meets the type requirements, its content is assigned to the formal parameter according to the relevant [conversion rules for elementary data types](javascript:call_link\('abenconversion_elementary.htm'\)). However, in contrast to the normal application of these rules, a non-catchable exception is raised if the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") is exceeded.
 
--   [Checking Character Literals](#@@ITOC@@ABENTYPING_LITERALS_1)
--   [Checking Numeric Literals](#@@ITOC@@ABENTYPING_LITERALS_2)
+-   [Checking Character Literals](#abentyping-literals-1-------checking-numeric-literals---@ITOC@@ABENTYPING_LITERALS_2)
 
 Checking Character Literals   
 
@@ -541,97 +540,9 @@ The parameters are evaluated from left to right (and from inside to outside) and
 
 Special rules apply to typing checks, identifying the calculation type, and parameter passes.
 
--   [Checking Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_1)
--   [Calculation Type and Calculation Length](#@@ITOC@@ABENTYPING_ARITH_EXPR_2)
--   [Passing Parameters](#@@ITOC@@ABENTYPING_ARITH_EXPR_3)
-    -   [Complete Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_4)
-    -   [Generic Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_5)
-
-Hints
-
--   In the case of [dynamic method calls](javascript:call_link\('abapcall_method_dynamic.htm'\)), the same rules apply as to static method calls. However, handling at runtime is time-consuming. Therefore, helper variables should be used in a dynamic call instead of functions or expressions if possible. Function module calls are always dynamic and, compared to method calls, fewer rules apply.
--   A [system field](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") should [never be used an actual parameter](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\) "Guideline").
-
-Checking Typing   
-
--   A [numeric function](javascript:call_link\('abenmathematical_funktion_glosry.htm'\) "Glossary Entry"), a [description function](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry"), or an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") can
-    -   be bound to any numeric or any input parameter typed using the type any in a method call.
-    -   be bound to any appropriately typed input parameter in a function module call.
--   A [bit function](javascript:call_link\('abenbit_function_glosry.htm'\) "Glossary Entry") or a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") can
-    -   be bound to any byte-like or general typed input parameter in a method call.
-    -   be passed to input parameters of type x or a generic type including x in function module calls.
--   A [string function](javascript:call_link\('abenstring_function_glosry.htm'\) "Glossary Entry") or a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry") can
-    -   be bound to any character-like or general typed input parameter in a method call.
-    -   be passed to input parameters of type string or a generic type including string in function module calls.
--   A [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") can
-    -   be passed to every input parameter that matches the specified type [type](javascript:call_link\('abenconstructor_expressions.htm'\)) of the constructor expression in method calls. In this case, with the exception of conversion operator [CONV](javascript:call_link\('abenconv_constructor_inference.htm'\)) in the constructor expression, the # character can only be specified for type if the input parameter is typed completely and this type is used.
-    -   be passed to every input parameter that matches the specified type [type](javascript:call_link\('abenconstructor_expressions.htm'\)) of the constructor expression in function module calls. The character # cannot be specified for type in the constructor expression since no static derivations of types are possible in function module calls.
--   A [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") can
-    -   be passed in method or function calls to every input parameter that matches the type of the result.
-
-Hints
-
--   In function module calls, the typing is not checked until runtime.
--   No arithmetic expressions, description functions, or numeric functions can be passed to formal parameters with the generic type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)). This restriction can be bypassed using the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) on the actual parameter. This restriction does not apply to the generic type any.
-
-Calculation Type and Calculation Length   
-
-If calculation expressions are specified as actual parameters, the calculation type and calculation length are determined as follows:
-
--   The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of an arithmetic expression is determined
-    -   in method calls from the operands of the expression and the typing of the input parameter, if this parameter is completely typed. If the input parameter is typed generically, only the operands of the expression are evaluated.
-    -   in function module calls from the operands of the expression. The typing of the input parameter is ignored.
--   The [calculation length](javascript:call_link\('abencalculation_length_glosry.htm'\) "Glossary Entry") of a bit expression is the length of the largest operand of the expression.
-
-Passing Parameters   
-
-When binding a function, a calculation expression, a constructor expression, or a table expression, the parameters are always [passed by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry"), even if the formal parameter is defined as to be [passed by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry").
-
-Complete Typing   
-
-The return value of a function or the result of a calculation expression, a constructor expression, or a table expression is [converted](javascript:call_link\('abenconversion_rules.htm'\)), if necessary, to the type of the input parameter and passed.
-
-Generic Typing   
-
--   In a function, a constructor expression, or a table expression, the formal parameter inherits the type of the return value or result. Only bit functions are handled like bit expressions (see below).
--   With an arithmetic expression, the formal parameter inherits the calculation type determined by the operand. If the calculation type is p, the length is always 16. The number of decimal places is determined by the accuracy required for the calculation and therefore depends on the values of the operands.
--   In a bit expression or a bit function, the formal parameter is set to type x in the calculation length determined by the operands.
--   In a string expression, the formal parameter is set to the type string for completely generic typing or the generic types csquence clike. In the case of the types c and n with generic length, the length is set to the length of the result of the string expression.
-
-Example
-
-The functional method m1 is called twice for each assignment to result. The first call is executed in an arithmetic expression, which is passed as an actual parameter in the second call. In the first call of each assignment, the formal parameter p1 has type p of length 16. The number of decimal places is 0 in the first assignment, 14 in the second, and 1 in the third assignment. In the second call, the formal parameter p1 has the type decfloat34 in each assignment, because the calculation type of the arithmetic expression is determined by the return value of m1.
-
-CLASS c1 DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS m1 IMPORTING p1 TYPE numeric
-                     RETURNING value(ret) TYPE decfloat34.
-ENDCLASS.
-CLASS c1 IMPLEMENTATION.
-  METHOD m1.
-    ret = p1.
-  ENDMETHOD.
-ENDCLASS.
-DATA num1   TYPE p DECIMALS 2 VALUE '2.00'.
-DATA num2   TYPE p DECIMALS 2 VALUE '1.00'.
-DATA result TYPE decfloat34.
-START-OF-SELECTION.
-  result = c1=>m1( sqrt( 4 ) +  c1=>m1( num1 / 2 )  ).
-  result = c1=>m1( sqrt( 4 ) +  c1=>m1( num1 / 3 )  ).
-  result = c1=>m1( sqrt( 4 ) +  c1=>m1( num2 / 2 )  ).
-
-
-### abentyping_check.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Checking Typing, ABENTYPING_CHECK, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugge
+-   [Checking Typing](#abentyping-arith-expr-1-------calculation-type-and-calculation-length---@ITOC@@ABENTYPING_ARITH_EXPR_2)
+-   [Passing Parameters](#abentyping-arith-expr-3-----------complete-typing---@ITOC@@ABENTYPING_ARITH_EXPR_4)
+    -   [Generic Typing](#abentyping-arith-expr-5---hints------in-the-case-of--dynamic-method-calls--javascript-call-link---abapcall-method-dynamic-htm------the-same-rules-apply-as-to-static-method-calls--however--handling-at-runtime-is-time-consuming--therefore--helper-variables-should-be-used-in-a-dynamic-call-instead-of-functions-or-expressions-if-possible--function-module-calls-are-always-dynamic-and--compared-to-method-calls--fewer-rules-apply------a--system-field--javascript-call-link---abensystem-field-glosry-htm-----glossary-entry---should--never-be-used-an-actual-parameter--javascript-call-link---abenuse-actual-parameters-guidl-htm-----guideline-----checking-typing---------a--numeric-function--javascript-call-link---abenmathematical-funktion-glosry-htm-----glossary-entry----a--description-function--javascript-call-link---abendescription-function-glosry-htm-----glossary-entry----or-an--arithmetic-expression--javascript-call-link---abenarithmetic-expression-glosry-htm-----glossary-entry---can---------be-bound-to-any-numeric-or-any-input-parameter-typed-using-the-type-any-in-a-method-call----------be-bound-to-any-appropriately-typed-input-parameter-in-a-function-module-call------a--bit-function--javascript-call-link---abenbit-function-glosry-htm-----glossary-entry---or-a--bit-expression--javascript-call-link---abenbit-expression-glosry-htm-----glossary-entry---can---------be-bound-to-any-byte-like-or-general-typed-input-parameter-in-a-method-call----------be-passed-to-input-parameters-of-type-x-or-a-generic-type-including-x-in-function-module-calls------a--string-function--javascript-call-link---abenstring-function-glosry-htm-----glossary-entry---or-a--string-expression--javascript-call-link---abenstring-expression-glosry-htm-----glossary-entry---can---------be-bound-to-any-character-like-or-general-typed-input-parameter-in-a-method-call----------be-passed-to-input-parameters-of-type-string-or-a-generic-type-including-string-in-function-module-calls------a--constructor-expression--javascript-call-link---abenconstructor-expression-glosry-htm-----glossary-entry---can---------be-passed-to-every-input-parameter-that-matches-the-specified-type--type--javascript-call-link---abenconstructor-expressions-htm-----of-the-constructor-expression-in-method-calls--in-this-case--with-the-exception-of-conversion-operator--conv--javascript-call-link---abenconv-constructor-inference-htm-----in-the-constructor-expression--the---character-can-only-be-specified-for-type-if-the-input-parameter-is-typed-completely-and-this-type-is-used----------be-passed-to-every-input-parameter-that-matches-the-specified-type--type--javascript-call-link---abenconstructor-expressions-htm-----of-the-constructor-expression-in-function-module-calls--the-character---cannot-be-specified-for-type-in-the-constructor-expression-since-no-static-derivations-of-types-are-possible-in-function-module-calls------a--table-expression--javascript-call-link---abentable-expression-glosry-htm-----glossary-entry---can---------be-passed-in-method-or-function-calls-to-every-input-parameter-that-matches-the-type-of-the-result---hints------in-function-module-calls--the-typing-is-not-checked-until-runtime------no-arithmetic-expressions--description-functions--or-numeric-functions-can-be-passed-to-formal-parameters-with-the-generic-type--data--javascript-call-link---abenbuilt-in-types-generic-htm------this-restriction-can-be-bypassed-using-the--conversion-operator--javascript-call-link---abenconversion-operator-glosry-htm-----glossary-entry----conv--javascript-call-link---abenconstructor-expression-conv-htm-----on-the-actual-parameter--this-restriction-does-not-apply-to-the-generic-type-any---calculation-type-and-calculation-length-----if-calculation-expressions-are-specified-as-actual-parameters--the-calculation-type-and-calculation-length-are-determined-as-follows-------the--calculation-type--javascript-call-link---abencalculation-type-glosry-htm-----glossary-entry---of-an-arithmetic-expression-is-determined---------in-method-calls-from-the-operands-of-the-expression-and-the-typing-of-the-input-parameter--if-this-parameter-is-completely-typed--if-the-input-parameter-is-typed-generically--only-the-operands-of-the-expression-are-evaluated----------in-function-module-calls-from-the-operands-of-the-expression--the-typing-of-the-input-parameter-is-ignored------the--calculation-length--javascript-call-link---abencalculation-length-glosry-htm-----glossary-entry---of-a-bit-expression-is-the-length-of-the-largest-operand-of-the-expression---passing-parameters-----when-binding-a-function--a-calculation-expression--a-constructor-expression--or-a-table-expression--the-parameters-are-always--passed-by-value--javascript-call-link---abenpass-by-value-glosry-htm-----glossary-entry----even-if-the-formal-parameter-is-defined-as-to-be--passed-by-reference--javascript-call-link---abenpass-by-reference-glosry-htm-----glossary-entry-----complete-typing-----the-return-value-of-a-function-or-the-result-of-a-calculation-expression--a-constructor-expression--or-a-table-expression-is--converted--javascript-call-link---abenconversion-rules-htm------if-necessary--to-the-type-of-the-input-parameter-and-passed---generic-typing---------in-a-function--a-constructor-expression--or-a-table-expression--the-formal-parameter-inherits-the-type-of-the-return-value-or-result--only-bit-functions-are-handled-like-bit-expressions--see-below-------with-an-arithmetic-expression--the-formal-parameter-inherits-the-calculation-type-determined-by-the-operand--if-the-calculation-type-is-p--the-length-is-always-16--the-number-of-decimal-places-is-determined-by-the-accuracy-required-for-the-calculation-and-therefore-depends-on-the-values-of-the-operands------in-a-bit-expression-or-a-bit-function--the-formal-parameter-is-set-to-type-x-in-the-calculation-length-determined-by-the-operands------in-a-string-expression--the-formal-parameter-is-set-to-the-type-string-for-completely-generic-typing-or-the-generic-types-csquence-clike--in-the-case-of-the-types-c-and-n-with-generic-length--the-length-is-set-to-the-length-of-the-result-of-the-string-expression---example--the-functional-method-m1-is-called-twice-for-each-assignment-to-result--the-first-call-is-executed-in-an-arithmetic-expression--which-is-passed-as-an-actual-parameter-in-the-second-call--in-the-first-call-of-each-assignment--the-formal-parameter-p1-has-type-p-of-length-16--the-number-of-decimal-places-is-0-in-the-first-assignment--14-in-the-second--and-1-in-the-third-assignment--in-the-second-call--the-formal-parameter-p1-has-the-type-decfloat34-in-each-assignment--because-the-calculation-type-of-the-arithmetic-expression-is-determined-by-the-return-value-of-m1---class-c1-definition----public-section------class-methods-m1-importing-p1-type-numeric----------------------returning-value-ret--type-decfloat34--endclass--class-c1-implementation----method-m1------ret---p1----endmethod--endclass--data-num1---type-p-decimals-2-value--2-00---data-num2---type-p-decimals-2-value--1-00---data-result-type-decfloat34--start-of-selection----result---c1--m1--sqrt--4------c1--m1--num1---2---------result---c1--m1--sqrt--4------c1--m1--num1---3---------result---c1--m1--sqrt--4------c1--m1--num2---2-------------abentyping-check-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------declarations--javascript-call-link---abendeclarations-htm---------typing--javascript-call-link---abentyping-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: Checking Typing, ABENTYPING_CHECK, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugge
 stion for improvement:)
 
 Checking Typing

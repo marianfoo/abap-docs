@@ -106,13 +106,9 @@ Standard Key
 
 The standard key is a special [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") in an internal table.
 
--   [Key Fields of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_1)
+-   [Key Fields of the Standard Key](#abenitab-standard-key-1--------declaration-of-the-standard-key---@ITOC@@ABENITAB_STANDARD_KEY_2)
 
--   [Declaration of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_2)
-
--   [Notes on Use](#@@ITOC@@ABENITAB_STANDARD_KEY_3)
-
--   [Example](#@@ITOC@@ABENITAB_STANDARD_KEY_4)
+-   [Notes on Use](#abenitab-standard-key-3--------example---@ITOC@@ABENITAB_STANDARD_KEY_4)
 
 Key Fields of the Standard Key
 
@@ -187,27 +183,11 @@ Empty Table Key
 
 The [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") of a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") can be empty. An empty table key does not contain any key fields.
 
--   [Declaration](#@@ITOC@@ABENITAB_EMPTY_KEY_1)
+-   [Declaration](#abenitab-empty-key-1--------notes-on-use---@ITOC@@ABENITAB_EMPTY_KEY_2)
 
--   [Notes on Use](#@@ITOC@@ABENITAB_EMPTY_KEY_2)
+-   [Uncritical use](#abenitab-empty-key-3--------critical-use---@ITOC@@ABENITAB_EMPTY_KEY_4)
 
--   [Uncritical use](#@@ITOC@@ABENITAB_EMPTY_KEY_3)
-
--   [Critical use](#@@ITOC@@ABENITAB_EMPTY_KEY_4)
-
--   [Example](#@@ITOC@@ABENITAB_EMPTY_KEY_5)
-
-Note
-
-[Sorted keys](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") and [hash keys](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") are never empty, regardless of whether they are primary or [secondary](javascript:call_link\('abensecondary_key_glosry.htm'\) "Glossary Entry").
-
-Declaration
-
-An empty primary table key can be created as follows:
-
--   Explicitly with the addition [EMPTY KEY](javascript:call_link\('abaptypes_primary_key.htm'\)) of the statements [TYPES](javascript:call_link\('abaptypes_primary_key.htm'\)), [DATA](javascript:call_link\('abapdata_primary_key.htm'\)), and so on.
-
--   Explicitly using an inline declaration [INTO TABLE @DATA(itab)](javascript:call_link\('abapinto_clause.htm'\)) in the statement SELECT
+-   [Example](#abenitab-empty-key-5---note---sorted-keys--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry---and--hash-keys--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---are-never-empty--regardless-of-whether-they-are-primary-or--secondary--javascript-call-link---abensecondary-key-glosry-htm-----glossary-entry-----declaration--an-empty-primary-table-key-can-be-created-as-follows-------explicitly-with-the-addition--empty-key--javascript-call-link---abaptypes-primary-key-htm-----of-the-statements--types--javascript-call-link---abaptypes-primary-key-htm-------data--javascript-call-link---abapdata-primary-key-htm------and-so-on-------explicitly-using-an-inline-declaration--into-table-DATA(itab)](javascript:call_link\('abapinto_clause.htm'\)) in the statement SELECT
 
 -   Implicitly when using the [standard key](javascript:call_link\('abenitab_standard_key.htm'\)) if a structured row type does not contain any non-numeric elementary components or if an unstructured row type is table-like.
 
@@ -671,13 +651,9 @@ Duplicate Non-Unique Keys
 
 Non-unique table keys can produce duplicate rows with respect to these keys. This section describes the order of these duplicates when data is inserted into table with non-unique sorted table keys. This order is ignored with respect to non-unique primary keys in standard tables.
 
--   [Single Record Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_1)
+-   [Single Record Operations](#abenitab-key-secondary-duplicates-1--------block-operations---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
 
--   [Block Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
-
--   [Special Features](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_3)
-
--   [Example](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_4)
+-   [Special Features](#abenitab-key-secondary-duplicates-3--------example---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_4)
 
 Single Record Operations
 

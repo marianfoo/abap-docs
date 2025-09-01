@@ -15,13 +15,9 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Parameters in the User Memory
 
--   [SPA/GPA Parameters](#@@ITOC@@ABENMEMORY_1)
+-   [SPA/GPA Parameters](#abenmemory-1--------spa-gpa-parameters-and-abap-programs---@ITOC@@ABENMEMORY_2)
 
--   [SPA/GPA Parameters and ABAP Programs](#@@ITOC@@ABENMEMORY_2)
-
--   [Managing SPA/GPA Parameters](#@@ITOC@@ABENMEMORY_3)
-
--   [SPA/GPA Parameters and Dynpro Fields](#@@ITOC@@ABENMEMORY_4)
+-   [Managing SPA/GPA Parameters](#abenmemory-3--------spa-gpa-parameters-and-dynpro-fields---@ITOC@@ABENMEMORY_4)
 
 SPA/GPA Parameters
 

@@ -108,118 +108,13 @@ Decimal Floating Point Numbers
 
 In [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"), a maximum of 16 or 34 places exactly are returned in the mantissa depending on the data type.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_1)
+-   [Handling in ABAP Dictionary](#abenddic-decimal-floating-point-1--------handling-in-dynpros---output-length-and-output-style---@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_2)
 
--   [Handling in Dynpros - Output Length and Output Style](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_2)
+-   [Handling in ABAP Programs](#abenddic-decimal-floating-point-3---handling-in-abap-dictionary--in-abap-dictionary--the-following-data-types-are-available-for-decimal-floating-numbers--------df16--dec--javascript-call-link---abenddic-builtin-types-htm-----and--df16--raw--javascript-call-link---abenddic-builtin-types-htm-----for-16-digit-numbers--------df34--dec--javascript-call-link---abenddic-builtin-types-htm-----and--df34--raw--javascript-call-link---abenddic-builtin-types-htm-----for-34-digit-numbers---these-data-types-are-a-replacement-for-real-decimal-floating-point-types--real-decimal-floating-point-types-can-be-used-without-restrictions-in-the-database-as-numeric-data-types-in-relevant-expressions-and-functions--but-are-not-yet-supported-by-all-database-systems-------df16--dec-and-df34--dec-----in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-as-a-packed-number--format--dec--javascript-call-link---abenddic-builtin-types-int-pack-htm-------the-length-and-the-number-of-decimal-places-must-be-specified-when-defining-a-data-type-in-abap-dictionary--calculations--select-with-appropriate--sql-expressions--javascript-call-link---abapsql-expr-htm-----or-with-the-aggregate-functions--sum-and-avg--javascript-call-link---abapselect-aggregate-htm------update-with--set---and-----javascript-call-link---abapupdate-set-expression-htm------can-be-performed-on-the-database-for-this-type--when-there-is-a-write-to-the-database--the-system-implicitly-rounds-off-to-the-number-of-decimal-places-and-decimal-overflows-can-occur--database-fields-with-these-types-can-be-edited-in--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---or--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry---------df16--raw-and-df34--raw-----in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-as-binary--in-raw-format---the-length-is-set-to-16-or-34-places--values-can-be-sorted--compared--and-used-in-indexes--for-this-type--no-calculations-can-be-performed-on-the-database--this-is-an-sap-specific-format--which-means-that-the-corresponding-fields-also-cannot-be-edited-in--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---or--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry----the-scaling-is-lost-when-writing-to-the-database---notes------the-actual-built-in-data-type-from-abap-dictionary-used-for-decimal-point-numbers-depends-on-their-purpose-------the-types-df16--dec-and-df34--dec-can-be-used-for-calculations-on-the-database--but-their-value-ranges-are-smaller-than-those-of-real-decimal-floating-point-numbers-------the-types-df16--raw-and-df34--raw-cover-the-whole-value-range--but-are-not-recognized-as-numbers-by-the-databases-------as-in-the--general-packed-numbers--javascript-call-link---abenddic-builtin-types-int-pack-htm------the-number-of-places-in-the-types-df16--dec-and-df34--dec-should-be-odd-------in-the--abap-cds--javascript-call-link---abencds-htm-----it-is-not-usually-possible-to-execute-expressions-or-functions-for-decimal-floating-point-numbers-------as-well-as-the-types-above--there-are-also-the--obsolete--javascript-call-link---abenddic-obsolete-types-htm-----built-in-data-types-df16--scl-and-df34--scl-for-decimal-floating-point-numbers-with--scaling--javascript-call-link---abenscale-glosry-htm-----glossary-entry---------in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-in-the-same-way-as-df16--raw-or-df34--raw--length-16-or-34-places--and-the-same-restrictions-apply---the-scaling-must-be-specified-in-a-direct-successor-database-field-with-type-int2--when-a-decimal-floating-point-number-is-written--this-field-is-filled-automatically-with-the-scaling-and-the-scaling-is-taken-from-it-in-reads-------it-is-strongly-advised-not-to-use-the-types-df16--scl-and-df34--scl--their-functions-are-rarely-needed-and-the-additional-column-for-scaling-makes-them-too-complicated-and-error-prone-to-use-correctly---handling-in-dynpros---output-length-and-output-style--the-maximum-output-length-that-can-be-specified-in-a--domain--javascript-call-link---abenddic-domains-htm-----for-a-16-character-decimal-floating-point-number-is-24--for-a-34-character-number--46-is-the-maximum-output-length--these-are-also-the-default-values---in-a-domain--or-directly-in-a-structure-component-created-using-one-of-the-types-for-decimal-floating-numbers--but-not-in-data-elements-with-directly-specified-technical-attributes---one-of-the-following-output-styles-is-always-defined--the-output-style-defines-how-a-dynpro-field-defined-with-reference-to-this-domain--or-a-corresponding-abap-field-in-the-case-of-list-output--is-formatted-------simple--mathematical-or-scientific-notation--depending-on-space-------leading-sign-to-the-right--commercial-notation--canceled-if-not-enough-space--instead-of-implicit-transformation-to-scientific-notation-------scale-preserving--format-with-preservation-of-scaling--including-trailing-zeroes-in-the-decimal-places------scientific--scientific-notation------scientific-with-leading-zero--scientific-notation-with-a-0-as-an-integer-digit------scale-preserving-scientific--scientific-notation-including-trailing-zeroes-in-the-mantissa-------technical--scientific-notation-where-the-exponent-is-always-an-integer-and-a-multiple-of-3--the-value-range-of-the-integer-digits-is-between-1-and-999--except-if-the-source-field-has-the-value-0----for-dynpro-fields-whose-data-type-is-not-defined-in-abap-dictionary--the-output-style-can-also-be-determined-in--screen-painter--javascript-call-link---abenscreen-painter-glosry-htm-----glossary-entry----in-the-case-of-formatting-with-the-statements--write--javascript-call-link---abapwrite--htm-----or--write-to--javascript-call-link---abapwrite-to-htm------the-addition--style--javascript-call-link---abapwrite-ext-options-htm-----is-available--as-for-the--string-templates--javascript-call-link---abapcompute-string-format-options-htm--------notes------if-scientific-notation-is-used--a-limited-number-of-displayed-places-in-the-mantissa-is-recommended--this-can-be-specified-using-the-built-in-function--rescale--javascript-call-link---abendec-floating-point-functions-htm-----------the--scale-preserving--style-ensures-that-the-scaling-is-restored-in-conversions-from-dynpro-fields-to-abap--and-not-just-the-original-value-------if-vertically-aligned-decimal-separators-and-exponents-are-needed-on-uis--the-scale-preserving-scientific-notation-can-be-used---handling-in-abap-programs--the-abap-types-that-correspond-to-the-16-or-34-figure-decimal-floating-numbers-in-abap-dictionary-are-decfloat16-and-decfloat34--which-are-handled-internally-according-to-the-ieee-754-2008-standard--and-are-supported-by-all-abap-operations--in--arithmetic-sql-expressions--javascript-call-link---abensql-arith-htm------decimal-floating-point-numbers-are-not-supported---the-addition--style--javascript-call-link---abapwrite-to-options-htm-----after--write-----to------javascript-call-link---abapwrite-to-htm-----and-the-formatting-option--style--javascript-call-link---abapcompute-string-format-options-htm-----in--embedded-expressions--javascript-call-link---abenstring-templates-expressions-htm-----are-available-for-the-formatting-of-decimal-floating-numbers-in-programs--these-overwrite-the-output-style-defined-in-abap-dictionary--------abenddic-character-byte-types-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------built-in-data-types-in-abap-dictionary--javascript-call-link---abenddic-builtin-types-intro-htm---------attributes-of-the-built-in-dictionary-types--javascript-call-link---abenddic-builtin-types-prop-htm---------general-dictionary-types--javascript-call-link---abenddic-builtin-types-general-htm---------character-like-types-and-byte-like-types-------character-strings---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_1)
 
--   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_3)
+-   [Byte Chains](#abenddic-character-byte-types-2--------notes-on-strings---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_3)
 
-Handling in ABAP Dictionary
-
-In ABAP Dictionary, the following data types are available for decimal floating numbers:
-
--   [DF16\_DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) and [DF16\_RAW](javascript:call_link\('abenddic_builtin_types.htm'\)) for 16-digit numbers.
-
--   [DF34\_DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) and [DF34\_RAW](javascript:call_link\('abenddic_builtin_types.htm'\)) for 34-digit numbers.
-
-These data types are a replacement for real decimal floating point types. Real decimal floating point types can be used without restrictions in the database as numeric data types in relevant expressions and functions, but are not yet supported by all database systems.
-
--   DF16\_DEC and DF34\_DEC
-    In database fields of this type, decimal floating point numbers are stored as a packed number (format [DEC](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\))). The length and the number of decimal places must be specified when defining a data type in ABAP Dictionary. Calculations (SELECT with appropriate [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) or with the aggregate functions [SUM and AVG](javascript:call_link\('abapselect_aggregate.htm'\)), UPDATE with [SET + and \-](javascript:call_link\('abapupdate_set_expression.htm'\))) can be performed on the database for this type. When there is a write to the database, the system implicitly rounds off to the number of decimal places and decimal overflows can occur. Database fields with these types can be edited in [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") or [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry").
-
--   DF16\_RAW and DF34\_RAW
-    In database fields of this type, decimal floating point numbers are stored as binary (in RAW format). The length is set to 16 or 34 places. Values can be sorted, compared, and used in indexes. For this type, no calculations can be performed on the database. This is an SAP-specific format, which means that the corresponding fields also cannot be edited in [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") or [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry"). The scaling is lost when writing to the database.
-
-Notes
-
--   The actual built-in data type from ABAP Dictionary used for decimal point numbers depends on their purpose.
-
--   The types DF16\_DEC and DF34\_DEC can be used for calculations on the database, but their value ranges are smaller than those of real decimal floating point numbers.
-
--   The types DF16\_RAW and DF34\_RAW cover the whole value range, but are not recognized as numbers by the databases.
-
--   As in the [general packed numbers](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\)), the number of places in the types DF16\_DEC and DF34\_DEC should be odd.
-
--   In the [ABAP CDS](javascript:call_link\('abencds.htm'\)) it is not usually possible to execute expressions or functions for decimal floating point numbers.
-
--   As well as the types above, there are also the [obsolete](javascript:call_link\('abenddic_obsolete_types.htm'\)) built-in data types DF16\_SCL and DF34\_SCL for decimal floating point numbers with [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry").
-
--   In database fields of this type, decimal floating point numbers are stored in the same way as DF16\_RAW or DF34\_RAW (length 16 or 34 places, and the same restrictions apply). The scaling must be specified in a direct successor database field with type INT2. When a decimal floating point number is written, this field is filled automatically with the scaling and the scaling is taken from it in reads.
-
--   It is strongly advised not to use the types DF16\_SCL and DF34\_SCL. Their functions are rarely needed and the additional column for scaling makes them too complicated and error-prone to use correctly.
-
-Handling in Dynpros - Output Length and Output Style
-
-The maximum output length that can be specified in a [domain](javascript:call_link\('abenddic_domains.htm'\)) for a 16-character decimal floating point number is 24. For a 34-character number, 46 is the maximum output length. These are also the default values.
-
-In a domain, or directly in a structure component created using one of the types for decimal floating numbers (but not in data elements with directly specified technical attributes), one of the following output styles is always defined. The output style defines how a dynpro field defined with reference to this domain (or a corresponding ABAP field in the case of list output) is formatted:
-
--   Simple
-
-Mathematical or scientific notation (depending on space)
-
--   Leading sign to the right
-
-Commercial notation (canceled if not enough space, instead of implicit transformation to scientific notation)
-
--   Scale-preserving
-
-Format with preservation of scaling, including trailing zeroes in the decimal places
-
--   Scientific
-
-Scientific notation
-
--   Scientific with leading zero
-
-Scientific notation with a 0 as an integer digit
-
--   Scale-preserving scientific
-
-Scientific notation including trailing zeroes in the mantissa.
-
--   Technical
-
-Scientific notation where the exponent is always an integer and a multiple of 3. The value range of the integer digits is between 1 and 999 (except if the source field has the value 0).
-
-For dynpro fields whose data type is not defined in ABAP Dictionary, the output style can also be determined in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry"). In the case of formatting with the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)), the addition [STYLE](javascript:call_link\('abapwrite_ext_options.htm'\)) is available (as for the [string templates](javascript:call_link\('abapcompute_string_format_options.htm'\))).
-
-Notes
-
--   If scientific notation is used, a limited number of displayed places in the mantissa is recommended. This can be specified using the built-in function [rescale](javascript:call_link\('abendec_floating_point_functions.htm'\)).
-
--   The "scale-preserving" style ensures that the scaling is restored in conversions from dynpro fields to ABAP, and not just the original value.
-
--   If vertically aligned decimal separators and exponents are needed on UIs, the scale-preserving scientific notation can be used.
-
-Handling in ABAP Programs
-
-The ABAP types that correspond to the 16 or 34 figure decimal floating numbers in ABAP Dictionary are decfloat16 and decfloat34, which are handled internally according to the IEEE-754-2008 standard, and are supported by all ABAP operations. In [arithmetic SQL expressions](javascript:call_link\('abensql_arith.htm'\)), decimal floating point numbers are not supported.
-
-The addition [STYLE](javascript:call_link\('abapwrite_to_options.htm'\)) after [WRITE *\[*TO*\]*](javascript:call_link\('abapwrite_to.htm'\)) and the formatting option [STYLE](javascript:call_link\('abapcompute_string_format_options.htm'\)) in [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) are available for the formatting of decimal floating numbers in programs. These overwrite the output style defined in ABAP Dictionary.
-
-
-### abenddic_character_byte_types.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Built-In Data Types in ABAP Dictionary](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [Attributes of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) →  [General Dictionary Types](javascript:call_link\('abenddic_builtin_types_general.htm'\)) → 
-
-Character-Like Types and Byte-Like Types
-
--   [Character Strings](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_1)
-
--   [Byte Chains](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_2)
-
--   [Notes on Strings](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_3)
-
--   [Use in ABAP SQL](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_4)
-
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_5)
+-   [Use in ABAP SQL](#abenddic-character-byte-types-4--------handling-in-dynpros---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_5)
 
 Character Strings
 
@@ -463,91 +358,11 @@ A currency field is a component of a structure, database table, or view defined 
 
 By default, the number of decimal places for a currency is always two. Currencies with a different number of decimal places must also be entered in the table TCURX, where the number of decimal places can be defined explicitly.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_1)
+-   [Handling in ABAP Dictionary](#abenddic-currency-field-1--------handling-in-dynpros---@ITOC@@ABENDDIC_CURRENCY_FIELD_2)
 
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_2)
+-   [Handling in ABAP Programs](#abenddic-currency-field-3---notes------currencies-are-handled-as-specified-by-the-data-saved-in-the-database-tables-tcur----of-the-package-sfib--the-exchange-rates-and-other-settings-can-be-edited-in-transaction-ob08-------currency-fields-are-defined-as-elements-of--cds-entities--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry---using--semantics-annotations--javascript-call-link---abencds-f1-element-annotation-htm-------handling-in-abap-dictionary--a-data-element-of-data-type--curr--javascript-call-link---abenddic-builtin-types-htm-----is-handled-as-a-field-of-data-type--dec--javascript-call-link---abenddic-builtin-types-int-pack-htm-----and-is-stored-in-database-tables-in-the--bcd--javascript-call-link---abenbcd-glosry-htm-----glossary-entry---format--when-creating-a-data-element-or-a-structure-component-of-the-data-type-curr-in-an-abap-dictionary--tool--javascript-call-link---abenddic-tools-htm------a-number-of-decimal-places-other-than-zero-must-be-defined--the-standard-value-is-two-fractional-digits---for-every-structure-component-of-data-type-curr--a-component-of-the-same-structure-or-of-a-different-structure--database-table--or-view-must-be-specified-when-editing-the-individual-component-as-a--reference-field--javascript-call-link---abenddic-structures-sema-htm-----with-the-data-type--cuky--javascript-call-link---abenddic-builtin-types-htm------this-field-is-the--currency-key--javascript-call-link---abencurrency-key-glosry-htm-----glossary-entry---that-defines-the-actual-currency--from-a-technical-perspective--the-data-type-cuky-is-handled-like-a-type-char-with-length-5---notes------the-number-of-decimal-places-for-the-currency-defined-by-the-currency-key-of-type-cuky-only-determines-the-formatting-and-checking-of-a-currency-field-on-a-dynpro--in-principal--it-is-independent-of-the-number-given-for-the-currency-field-of-type-curr--the-default-value-of-two-decimal-places-for-currency-fields-in-abap-dictionary-is-chosen-because-most-of-the-currencies-in-the-database-table-tcurc-have-two-decimal-places-and-are-not-entered-in-the-database-table-tcurx--it-is-not-advisable-to-use-any-other-value--since-in-this-case-any-unforeseen-operations-with-currency-keys-in-abap-programs-are-largely-ignored-------the-conversion-function--currency--conversion--javascript-call-link---abencds-f1-conversion-functions-htm-----in--abap-cds--javascript-call-link---abenabap-cds-glosry-htm-----glossary-entry---also-assumes-two-decimal-places-for-currency-fields--if-the-function-for-currency-fields-is-used-with-other-amounts-of-decimal-places--unexpected-behaviour-may-arise-------as-in--general-packed-numbers--javascript-call-link---abenddic-builtin-types-int-pack-htm------the-number-of-places-in-type-curr-should-be-odd---handling-in-dynpros--for-the-display-of-an-input-output-field-of-type-curr-on-a--dynpro--javascript-call-link---abendynpro-glosry-htm-----glossary-entry----the-content-is-displayed-as-character-like-content-and-in-accordance-with-a-type-dependent-mask--as-for-all--dynpro-fields--javascript-call-link---abendynpro-field-glosry-htm-----glossary-entry----here--the-positioning-of-the-decimal-point-for-a-currency-field-of-type-curr-on-a-dynpro-is-completely-independent-of-the-number-of-decimal-places-specified-by-the-data-element-in-abap-dictionary--greater-than-or-equal-to-one--the-default-value-is-two---the-number-of-decimal-places-on-a-dynpro-is-defined-as-follows-------when-displaying-a-dynpro-field-of-type-curr--the-reference-field-for-the-currency-key-is-searched-for-in-the-global-data-of-the-current-abap-program--the-content-of-this-field-must-be-a-valid--currency-id--javascript-call-link---abencurrency-id-glosry-htm-----glossary-entry---from-the-database-table-tcurc--if-the-reference-field-is-not-found-or-there-is-no-entry-in-the-database-table-tcurx-with-the-content-of-the-field--the-currency-field-is-displayed-with-two-fractional-digits-by-default------the-reference-field-is-either-defined-in-the-relevant-structure-in-abap-dictionary-or-was-defined-using-screen-painter-for-the-attributes-of-the-dynpro-field--it-does-not-have-to-be-present-on-the-dynpro-itself-------if-the-currency-id-for-the-reference-field-is-found-in-the-database-table-tcurx--the-currency-field-is-displayed-with-the-decimal-places-specified-there--this-also-applies-to-initial-reference-fields---note--a-dynpro-therefore-only-uses-the-string-of-digits-of-a-currency-field-from-the-abap-program--or-a--conversion-routine--javascript-call-link---abenconversion-routine-glosry-htm-----glossary-entry---in-between--or-just-sends-this-string--any-information-about-currency-keys-and-decimal-places-is-not-passed-automatically--it-must-be-ensured-that-the-reference-field-for-pbo-is-filled-with-the-appropriate-value--for-pai--the-correct-currency-key-plays-a-part-in-the-automatic-format-check--especially-on-dynpros-in-which-currency-fields-are-displayed-in-differing-currencies--it-must-be-ensured-that-the-reference-field-is-transported-before-the-currency-by-using-the-statements--chain--javascript-call-link---dynpchain-htm-----and--field--javascript-call-link---dynpfield-htm-------handling-in-abap-programs--the-abap-type-that-corresponds-to-the-curr-data-type-is-p--an-abap-data-object-declared-with-reference-to-a-dictionary-type-of-type-curr-has-the-number-of-decimal-places-defined-there--greater-than-or-equal-to-one-and-the-default-is-two---these-decimal-places-are-respected-for-all-operations-and-calculations--as-for-all-packed-numbers--the-only-exceptions-are-the-programs-for-which-the-program-property--fixed-point-arithmetic--javascript-call-link---abenfixed-point-arithmetic-glosry-htm-----glossary-entry---was-not-set---to-work-correctly-with-a-currency-field--all-digits-in-the-number-must-be-recorded-as-currency-amounts-in-the-smallest-possible-currency-units--regardless-of-the-number-of-decimal-places--this-occurs-automatically-sometimes--for-example--if--currency--javascript-call-link---abapwrite-to-options-htm-----is-used-after--write---to----javascript-call-link---abapwrite-to-htm-----or-the-formatting-option--currency--javascript-call-link---abapcompute-string-format-options-htm-----in-an--embedded-expression--javascript-call-link---abenstring-templates-expressions-htm-----of-a--character-string-template--javascript-call-link---abenstring-templates-htm------for-other-operations--the-following-restrictions-apply-------comparison--addition--subtraction--and-division-of-two-currency-fields-with-the-same-number-of-fractional-digits-are-not-critical-------multiplication-with-and-division-by-a-non-currency-dependent-number-is-not-critical-------all-other-operations-are-critical--for-example-------multiplication-of-two-currency-fields-------operations-between-two-fields-with-different-currencies-that-include-assignments-------assignments-of-non-currency-dependent-numbers-to-currency-fields---accurate-results-should-not-be-expected-when-performing-critical-operations-if-the-number-of-decimal-places-in-the-program-does-not-match-the-number-in-the-currency---notes------for-currencies--one-of-the-data-types-for--decimal-floating-point-numbers--javascript-call-link---abenddic-decimal-floating-point-htm-----is-recommended-rather-than-the-data-type-curr--the-currency-compliant-formatting-is-supported-on-dynpros-by-output-styles-and-by-style-compatible-formatting-in-abap-programs--see-the--executable-example--javascript-call-link---abenwrite-style-abexa-htm-----------the-methods-convert--curr--to--decfloat-and-convert--decfloat--to--curr-of-the-system-class--cl--abap--decfloat--javascript-call-link---abencl-abap-decfloat-doc-htm-----convert-currency-amounts-to-decimal-floating-point-numbers--and-back--as-specified-by-a-currency-key--------abenddic-quantity-field-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------built-in-data-types-in-abap-dictionary--javascript-call-link---abenddic-builtin-types-intro-htm---------attributes-of-the-built-in-dictionary-types--javascript-call-link---abenddic-builtin-types-prop-htm---------special-dictionary-types--javascript-call-link---abenddic-builtin-types-special-htm---------quantity-fields--a-quantity-field-is-a-component-of-a-structure--database-table--or-view-of-type--quan--javascript-call-link---abenddic-builtin-types-htm-----defined-in-abap-dictionary-and-used-to-record-a-quantity-in-a-specific-unit--a-quantity-field-must-be-associated-with-a-unit-key-of-a-structure--database-table--or-view-that-defines-the-unit-and-the-number-of-decimal-places--a-unit-key-is-a-component-of-a-structure--database-table--or-view-of-type-unit-defined-in-abap-dictionary-and-can-contain-a--unit-id--javascript-call-link---abenunit-id-glosry-htm-----glossary-entry---from-the-database-table-t006--------handling-in-abap-dictionary---@ITOC@@ABENDDIC_QUANTITY_FIELD_1)
 
--   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_3)
-
-Notes
-
--   Currencies are handled as specified by the data saved in the database tables TCUR... of the package SFIB. The exchange rates and other settings can be edited in transaction OB08.
-
--   Currency fields are defined as elements of [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") using [semantics annotations](javascript:call_link\('abencds_f1_element_annotation.htm'\)).
-
-Handling in ABAP Dictionary
-
-A data element of data type [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) is handled as a field of data type [DEC](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\)) and is stored in database tables in the [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") format. When creating a data element or a structure component of the data type CURR in an ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)), a number of decimal places other than zero must be defined. The standard value is two fractional digits.
-
-For every structure component of data type CURR, a component of the same structure or of a different structure, database table, or view must be specified when editing the individual component as a [reference field](javascript:call_link\('abenddic_structures_sema.htm'\)) with the data type [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)). This field is the [currency key](javascript:call_link\('abencurrency_key_glosry.htm'\) "Glossary Entry") that defines the actual currency. From a technical perspective, the data type CUKY is handled like a type CHAR with length 5.
-
-Notes
-
--   The number of decimal places for the currency defined by the currency key of type CUKY only determines the formatting and checking of a currency field on a dynpro. In principal, it is independent of the number given for the currency field of type CURR. The default value of two decimal places for currency fields in ABAP Dictionary is chosen because most of the currencies in the database table TCURC have two decimal places and are not entered in the database table TCURX. It is not advisable to use any other value, since in this case any unforeseen operations with currency keys in ABAP programs are largely ignored.
-
--   The conversion function [CURRENCY\_CONVERSION](javascript:call_link\('abencds_f1_conversion_functions.htm'\)) in [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry") also assumes two decimal places for currency fields. If the function for currency fields is used with other amounts of decimal places, unexpected behaviour may arise.
-
--   As in [general packed numbers](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\)), the number of places in type CURR should be odd.
-
-Handling in Dynpros
-
-For the display of an input/output field of type CURR on a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), the content is displayed as character-like content and in accordance with a type-dependent mask, as for all [dynpro fields](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry"). Here, the positioning of the decimal point for a currency field of type CURR on a dynpro is completely independent of the number of decimal places specified by the data element in ABAP Dictionary (greater than or equal to one, the default value is two). The number of decimal places on a dynpro is defined as follows:
-
--   When displaying a dynpro field of type CURR, the reference field for the currency key is searched for in the global data of the current ABAP program. The content of this field must be a valid [currency ID](javascript:call_link\('abencurrency_id_glosry.htm'\) "Glossary Entry") from the database table TCURC. If the reference field is not found or there is no entry in the database table TCURX with the content of the field, the currency field is displayed with two fractional digits by default.
-    The reference field is either defined in the relevant structure in ABAP Dictionary or was defined using Screen Painter for the attributes of the dynpro field. It does not have to be present on the dynpro itself.
-
--   If the currency ID for the reference field is found in the database table TCURX, the currency field is displayed with the decimal places specified there. This also applies to initial reference fields.
-
-Note
-
-A dynpro therefore only uses the string of digits of a currency field from the ABAP program (or a [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") in between) or just sends this string. Any information about currency keys and decimal places is not passed automatically. It must be ensured that the reference field for PBO is filled with the appropriate value. For PAI, the correct currency key plays a part in the automatic format check. Especially on dynpros in which currency fields are displayed in differing currencies, it must be ensured that the reference field is transported before the currency by using the statements [CHAIN](javascript:call_link\('dynpchain.htm'\)) and [FIELD](javascript:call_link\('dynpfield.htm'\)).
-
-Handling in ABAP Programs
-
-The ABAP type that corresponds to the CURR data type is p. An ABAP data object declared with reference to a dictionary type of type CURR has the number of decimal places defined there (greater than or equal to one and the default is two). These decimal places are respected for all operations and calculations, as for all packed numbers. The only exceptions are the programs for which the program property [fixed point arithmetic](javascript:call_link\('abenfixed_point_arithmetic_glosry.htm'\) "Glossary Entry") was not set.
-
-To work correctly with a currency field, all digits in the number must be recorded as currency amounts in the smallest possible currency units, regardless of the number of decimal places. This occurs automatically sometimes, for example, if [CURRENCY](javascript:call_link\('abapwrite_to_options.htm'\)) is used after [WRITE \[TO\]](javascript:call_link\('abapwrite_to.htm'\)) or the formatting option [CURRENCY](javascript:call_link\('abapcompute_string_format_options.htm'\)) in an [embedded expression](javascript:call_link\('abenstring_templates_expressions.htm'\)) of a [character string template](javascript:call_link\('abenstring_templates.htm'\)). For other operations, the following restrictions apply:
-
--   Comparison, addition, subtraction, and division of two currency fields with the same number of fractional digits are not critical.
-
--   Multiplication with and division by a non-currency-dependent number is not critical.
-
--   All other operations are critical, for example:
-
--   Multiplication of two currency fields.
-
--   Operations between two fields with different currencies that include assignments.
-
--   Assignments of non-currency-dependent numbers to currency fields.
-
-Accurate results should not be expected when performing critical operations if the number of decimal places in the program does not match the number in the currency.
-
-Notes
-
--   For currencies, one of the data types for [decimal floating point numbers](javascript:call_link\('abenddic_decimal_floating_point.htm'\)) is recommended rather than the data type CURR. The currency-compliant formatting is supported on dynpros by output styles and by style-compatible formatting in ABAP programs. See the [executable example](javascript:call_link\('abenwrite_style_abexa.htm'\)).
-
--   The methods CONVERT\_CURR\_TO\_DECFLOAT and CONVERT\_DECFLOAT\_TO\_CURR of the system class [CL\_ABAP\_DECFLOAT](javascript:call_link\('abencl_abap_decfloat_doc.htm'\)) convert currency amounts to decimal floating point numbers (and back) as specified by a currency key.
-
-
-### abenddic_quantity_field.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Built-In Data Types in ABAP Dictionary](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [Attributes of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) →  [Special Dictionary Types](javascript:call_link\('abenddic_builtin_types_special.htm'\)) → 
-
-Quantity Fields
-
-A quantity field is a component of a structure, database table, or view of type [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) defined in ABAP Dictionary and used to record a quantity in a specific unit. A quantity field must be associated with a unit key of a structure, database table, or view that defines the unit and the number of decimal places. A unit key is a component of a structure, database table, or view of type UNIT defined in ABAP Dictionary and can contain a [unit ID](javascript:call_link\('abenunit_id_glosry.htm'\) "Glossary Entry") from the database table T006.
-
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_1)
-
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_2)
-
--   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_3)
+-   [Handling in Dynpros](#abenddic-quantity-field-2--------handling-in-abap-programs---@ITOC@@ABENDDIC_QUANTITY_FIELD_3)
 
 Notes
 

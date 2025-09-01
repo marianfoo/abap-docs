@@ -145,8 +145,7 @@ AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
 DDIC - Table Category of Database Tables
 
--   [Transparent Tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_CAT_1)
--   [Global Temporary Tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_CAT_2)
+-   [Transparent Tables](#abenddic-database-tables-tab-cat-1-------global-temporary-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_CAT_2)
 
 Transparent Tables   
 
@@ -286,8 +285,7 @@ DDIC - Table Buffering of Database Tables
 
 It is possible to define whether and how [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry") is allowed in the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") of an AS instance is allowed for a DDIC database table.
 
--   [Buffering Permission](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_1)
--   [Buffering Type](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
+-   [Buffering Permission](#abenddic-database-tables-buffer-1-------buffering-type---@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
 
 The table buffer is managed by the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry"). When [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") reads are made on tables with activated buffering or if these tables are accessed from classic [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), the table buffer is used implicitly.
 

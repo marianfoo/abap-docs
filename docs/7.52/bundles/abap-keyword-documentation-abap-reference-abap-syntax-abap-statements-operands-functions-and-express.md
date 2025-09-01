@@ -42,9 +42,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Functions and Expressions for Operand Positions
 
--   [Writing Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_1)
-
--   [Reading Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2)
+-   [Writing Positions](#abenfunctions-expressions-1--------reading-positions---@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2)
 
 Writing Positions
 

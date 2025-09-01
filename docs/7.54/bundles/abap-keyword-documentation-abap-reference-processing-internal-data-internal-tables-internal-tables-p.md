@@ -15,148 +15,17 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 Internal Tables: Performance Notes
 
--   [Table Sharing](#@@ITOC@@ABENITAB_PERFO_1)
+-   [Table Sharing](#abenitab-perfo-1--------initial-allocated-memory-area---@ITOC@@ABENITAB_PERFO_2)
 
--   [Initial Allocated Memory Area](#@@ITOC@@ABENITAB_PERFO_2)
+-   [Index Administration](#abenitab-perfo-3--------block-processing-of-table-rows---@ITOC@@ABENITAB_PERFO_4)
 
--   [Index Administration](#@@ITOC@@ABENITAB_PERFO_3)
+-   [Selective Data Transport](#abenitab-perfo-5--------using-secondary-keys---@ITOC@@ABENITAB_PERFO_6)
 
--   [Block Processing of Table Rows](#@@ITOC@@ABENITAB_PERFO_4)
+-   [Deleting Table Rows](#abenitab-perfo-7--------free-key-specified-for-sorted-tables-and-hashed-tables---@ITOC@@ABENITAB_PERFO_8)
 
--   [Selective Data Transport](#@@ITOC@@ABENITAB_PERFO_5)
+-   [Sorting](#abenitab-perfo-9---table-sharing--when-assignments-are-made-between-internal-tables-of-the-same-type-whose-row-type-does-not-contain-any-table-types--for-performance-reasons---only-the-internal-administration-functions-are-passed-to-the--table-body--javascript-call-link---abentable-body-glosry-htm-----glossary-entry-----table-sharing--javascript-call-link---abentable-sharing-glosry-htm-----glossary-entry---is-revoked-only-when-change-access-to-one-of-the-tables-involved-is-initiated--at-this-point--the-actual-copy-process-takes-place---initial-allocated-memory-area--internal-tables-are--dynamic-data-objects--javascript-call-link---abendynamic-data-object-glosry-htm-----glossary-entry---whose-area-in-the-memory-is-increased-block-by-block--the-size-of-the-first-block-in-the-memory-can-be-controlled-in-the-declaration-of-an-internal-table-using-the-additions--initial-size--javascript-call-link---abaptypes-itab-htm-----and-the-obsolete--occurs--javascript-call-link---abapdata-occurs-htm------if-the-first-block-is-no-longer-enough--further-blocks-are-created-using-an-internal-duplication-strategy-until-a-maximum-size-is-reached--all-additional-blocks-are-then-created-with-a-constant-size-of-between-8-and-16-kb---in-general--the-system-can-be-left-to-determine-the-size-of-the-first-block--by-not-specifying-initial-size--or-by-entering-the-value-0---in-this-case--when-the-first-rows-are-entered-in-an-internal-table--a-suitable-block-size-is-chosen---entering-a-concrete-value-greater-than-0-after-initial-size-is-only-practical-if-it-is-known-in-advance-how-many-entries-are-to-be-made-in-the-table--and-the-first-block-is-therefore-to-be-created-with-the-most-suitable-dimensions--this-can-be-particularly-important-for-internal-tables-that-are-components-of-other-internal-tables--and-which-only-contain-a-few-rows--no-more-than-around-5----to-avoid-excessive-memory-demands--the-system-ignores-values-that-produce-memory-demands-greater-than-the-constant-block-size---index-administration--in-an--index-table--javascript-call-link---abenindex-table-glosry-htm-----glossary-entry----the-logical-order-of-the-table-entries-is-not-generally-consistent-with-the-physical-order-of-the-entries-in-the-main-memory--in-this-case--the-logical-order-is-no-longer-administrated-by-a-physical-index--but-by-a-logical-index-instead--the-same-is-basically-true-for-the--secondary-table-indexes--javascript-call-link---abensecondary-table-index-glosry-htm-----glossary-entry---used-to-manage--secondary--javascript-call-link---abensecondary-table-key-glosry-htm-----glossary-entry----sorted-keys--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry-----use-of-the-logical-index-produces-additional-memory-requirements--and-index-maintenance-places-a-high-demand-on-resources--time-and-memory--when-inserting-or-deleting-table-rows--the-resource-requirements-rise-in-proportion-to-the-number-of-remaining-rows-after-the-insertion-or-deletion-position--for-very-large-internal-tables--this-can-result-in-considerable-demands-on-performance-at-runtime---the-logical-index-is-not-created-until-the-moment-at-which-it-is-required--in-other-words--when-a-row-is-inserted-before-another-row--if-the-order-of-the-table-rows-is-changed--or-a-row-other-than-the-last-row-is-deleted--a-logical-index-is-not-required-if-an-internal-table-is-filled-using-only--append--javascript-call-link---abapappend-htm------and-if-only-its-last-row-s--is-are-deleted-using--delete--javascript-call-link---abapdelete-itab-htm-------note--in-contrast-to-filling-a-table-with--insert--javascript-call-link---abapinsert-itab-htm------appending-rows-with--append--javascript-call-link---abapappend-htm-----does-not-require-any-resources-for-index-maintenance--it-is-therefore-preferable-to-use-append-instead-of-insert-to-create-a--standard-table--javascript-call-link---abenstandard-table-glosry-htm-----glossary-entry----this-is-possible-if-the-order-of-the-entries-is-not-important--or-if-entries-can-be-appended-in-the-correct-order---block-processing-of-table-rows--if-whole-row-areas-of-a-table-can-be-processed-at-once--this-should-not-be-done-in-rows--but-using-block-operations-instead--block-operations-are-possible-using-the-from-and-to-additions-of-the-statements--insert--javascript-call-link---abapinsert-itab-htm-------append--javascript-call-link---abapappend-htm-----and--delete--javascript-call-link---abapdelete-itab-htm------block-operations-are-also-more-efficient-than-single-record-operations-when-reading-from-or-modifying-database-tables-with--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry---statements-with-the-additions-from---appending---to-table---selective-data-transport--if--when-reading-table-rows-using--read-table--javascript-call-link---abapread-table-htm-----or--loop-at--javascript-call-link---abaploop-at-itab-htm------a-work-area-is-used-or-table-rows-can-be-changed-using--modify--javascript-call-link---abapmodify-itab-htm-----instead-of-by-direct-access--the-transporting-addition-can-be-used-to-prevent-unnecessary-assignments-of-table-components-to-the-work-area--this-can-lead-to-a-noticeable-acceleration-in-performance--particularly-if-table-like-components-are-excluded-from-processing---using-secondary-keys--the--use-of-secondary-table-keys--javascript-call-link---abenitab-key-secondary-usage-htm-----should-be-planned-and-executed-with-care--the-time-gained-when-accessing-individual-rows-should-not-be-lost-again-by-the-increased-storage-and-time-requirements-for-managing-the-secondary-keys--secondary-keys-are-generally-recommended-for-internal-tables-that-are-filled-once-and-rarely-changed-during-program-execution---example--the-program-demo--secondary--keys-demonstrates-how-a-secondary-table-key-is-specified-and-the-resulting-performance-gain---deleting-table-rows--when-rows-are-deleted-from-an-internal-table--overhead-is-produced-for-all-table-keys-and-table-indexes--the-primary-key-and-all-unique-secondary-keys-are-updated-directly--but-non-unique-secondary-keys-are-updated-only-if-the-row-being-deleted-is-included-in-the-updated-part-of-an-associated-index---lazy-update--javascript-call-link---abenlazy-update-glosry-htm-----glossary-entry------also-note-that--for-standard-tables--the-mean-runtime-of-the-statement--delete--javascript-call-link---abapdelete-itab-htm-----always-has-a-linear-dependency-on-the-number-of-table-rows--even-when-secondary-keys-are-specified-using--with-table-key--javascript-call-link---abapdelete-itab-key-htm-----or--using-key--javascript-call-link---abapdelete-itab-key-htm------this-is-because-a-linear-search-is-required-to-update-the-primary-index--even-though-the-row-being-deleted-can-itself-be-found-quickly---deleting-rows-in-internal-tables-using--delete--javascript-call-link---abapdelete-itab-htm-----does-not-usually-free-any-memory-in-the-internal-table--statements-such-as--clear--javascript-call-link---abapclear-htm-----or--free--javascript-call-link---abapfree-dataobject-htm-----must-be-used-to-free-memory-in-internal-tables---free-key-specified-for-sorted-tables-and-hashed-tables--when-using-the--read--javascript-call-link---abapread-table-htm-----statement-with-a-specified-free-key-of-the-form--with-key------javascript-call-link---abapread-table-free-htm------the-search-is-optimized-in-all-cases-where-this-is-possible-------in--sorted-tables--javascript-call-link---abensorted-table-glosry-htm-----glossary-entry----if-any-initial-section-of-the--table-key--javascript-call-link---abentable-key-glosry-htm-----glossary-entry---or-the-complete-table-key-is-covered-by-the-specified-key-------in--hashed-tables--javascript-call-link---abenhashed-table-glosry-htm-----glossary-entry----if-the-complete-table-key-is-covered---if-part-of-a-free-key-meets-these-conditions--this-partial-key-is-first-used-to-search-for-an-entry--in-sorted-tables--this-is-performed-using-a-binary-search-with-a-logarithmic-consumption-of-resources--and-in-hashed-tables-by-using-a-hash-algorithm--that-is--with-constant-resource-consumption---if-an-entry-is-found--the-system-checks-whether-the-rest-of-the-key-conditions-are-also-met--this-means-that-over-specific-keys-in-particular-are-optimized---note--see-also--optimization-of-the-where-condition--javascript-call-link---abenitab-where-optimization-htm-------sorting--for-textual-sorting-of-an-internal-table-in-accordance-with-the-current--text-environment--javascript-call-link---abentext-environment-glosry-htm-----glossary-entry----it-is-more-beneficial-for-performance-to-use-the-statement--convert-text-into-sortable-code--javascript-call-link---abapconvert-text-htm-----instead-of--sort-as-text--javascript-call-link---abapsort-itab-htm-----in-the-following-cases-------if-an-internal-table-is-sorted-by-locale-and-then-subjected-to-a-binary-search-using-the-statement-read-table-or-using-a--table-expression--javascript-call-link---abentable-expressions-htm-----------an-internal-table-must-be-sorted-more-than-once-------indexes-for-database-tables-should-be-structured-in-accordance-with-a-locale---this-translation-does-not-reflect-the-current-version-of-the-documentation--continue--optimization-of-the-where-condition--javascript-call-link---abenitab-where-optimization-htm-----------abenitab-where-optimization-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--javascript-call-link---abenitab-htm---------internal-tables--performance-notes--javascript-call-link---abenitab-perfo-htm---------optimization-of-the-where-condition--the-statements--loop-at--javascript-call-link---abaploop-at-itab-htm-------delete--javascript-call-link---abapdelete-itab-htm------and--modify--javascript-call-link---abapmodify-itab-htm-----can-be-specified-together-with-a-where-condition-that-selects-specific-rows-of-the-internal-table--searches-in-a--standard-table--javascript-call-link---abenstandard-table-glosry-htm-----glossary-entry---using-the--primary-table-key--javascript-call-link---abenprimary-table-key-glosry-htm-----glossary-entry---are-always-linear-and-cannot-be-optimized--searches-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry---or-a--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry----however--can-be-optimized-in-certain-circumstances--these-keys-are-used-when-------editing-a--sorted-table--javascript-call-link---abensorted-table-glosry-htm-----glossary-entry---using-its-primary-key-------editing-a--hashed-table--javascript-call-link---abenhashed-table-glosry-htm-----glossary-entry---using-its-primary-key-------editing-a-table--any-type--using-a--secondary-table-key--javascript-call-link---abensecondary-table-key-glosry-htm-----glossary-entry---specified-by-using-key---the-optimization-takes-place-because-all--relational-expressions--javascript-call-link---abenrelational-expression-glosry-htm-----glossary-entry---or-a-group-of-the-relational-expressions-in-the-where-condition-are-mapped-to-a-specified-key--this-specified-key-performs-an-appropriate-optimized-key-read--binary-search-or-hash-algorithm-as-in-the-statement--read-table--javascript-call-link---abapread-table-htm-----or-a--table-expression--javascript-call-link---abentable-expressions-htm-------to-find-one-or-more-rows--the-row-or-rows-in-question-are-then-checked-using-those-remaining-relational-expressions-from-the-where-condition-that-were-not-mapped-to-the-specified-key---prerequisites-for-the-optimization-are--therefore--as-follows-------the-relational-expressions-of-the-where-condition-can-be-transformed-to-a-specified-key-------the-corresponding-key-read-returns-the-same-results-as-would-the-evaluation-of-this-part-of-the-logical-expression--this-is-guaranteed-only-for-compatible-data-types--since-in-the-case-of-incompatible-data-types-------the-content-of-the-specified-data-objects-is-converted-to-the-data-type-of-the-columns-before-the-evaluation-in-the-case-of-key-reads-------the--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types-apply-when-evaluating-a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry----here--all-the-data-types-involved-play-a-part-in-determining-which-operand-is-converted-into-which-comparison-type---if-there-are-no-relational-expressions-or-too-few-to-meet-both-of-these-prerequisites--no-optimizations-are-possible-and-the-behavior-is-as-followed-------if-the-primary-table-key-is-used-to-access-a-sorted-table-or-a-hashed-table--all-rows-of-the-internal-table-are-checked--as-in-a-standard-table--------if-the-table-is-read-using-a-secondary-table-key--if-specified-after-using-key---a-syntax-error-or-warning-is-produced-or-an-exception-raised--accesses-that-use-a-secondary-table-key-must-always-be-optimized---the-following-sections-describe-exactly-when-an-access-can-be-optimized--------prerequisites-for-the-optimization-of-hash-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
 
--   [Using Secondary Keys](#@@ITOC@@ABENITAB_PERFO_6)
-
--   [Deleting Table Rows](#@@ITOC@@ABENITAB_PERFO_7)
-
--   [Free Key Specified for Sorted Tables and Hashed Tables](#@@ITOC@@ABENITAB_PERFO_8)
-
--   [Sorting](#@@ITOC@@ABENITAB_PERFO_9)
-
-Table Sharing
-
-When assignments are made between internal tables of the same type whose row type does not contain any table types (for performance reasons), only the internal administration functions are passed to the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry"). [Table sharing](javascript:call_link\('abentable_sharing_glosry.htm'\) "Glossary Entry") is revoked only when change access to one of the tables involved is initiated. At this point, the actual copy process takes place.
-
-Initial Allocated Memory Area
-
-Internal tables are [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry") whose area in the memory is increased block by block. The size of the first block in the memory can be controlled in the declaration of an internal table using the additions [INITIAL SIZE](javascript:call_link\('abaptypes_itab.htm'\)) and the obsolete [OCCURS](javascript:call_link\('abapdata_occurs.htm'\)). If the first block is no longer enough, further blocks are created using an internal duplication strategy until a maximum size is reached. All additional blocks are then created with a constant size of between 8 and 16 KB.
-
-In general, the system can be left to determine the size of the first block (by not specifying INITIAL SIZE, or by entering the value 0). In this case, when the first rows are entered in an internal table, a suitable block size is chosen.
-
-Entering a concrete value greater than 0 after INITIAL SIZE is only practical if it is known in advance how many entries are to be made in the table, and the first block is therefore to be created with the most suitable dimensions. This can be particularly important for internal tables that are components of other internal tables, and which only contain a few rows (no more than around 5).
-
-To avoid excessive memory demands, the system ignores values that produce memory demands greater than the constant block size.
-
-Index Administration
-
-In an [index table](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry"), the logical order of the table entries is not generally consistent with the physical order of the entries in the main memory. In this case, the logical order is no longer administrated by a physical index, but by a logical index instead. The same is basically true for the [secondary table indexes](javascript:call_link\('abensecondary_table_index_glosry.htm'\) "Glossary Entry") used to manage [secondary](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") [sorted keys](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry").
-
-Use of the logical index produces additional memory requirements, and index maintenance places a high demand on resources (time and memory) when inserting or deleting table rows. The resource requirements rise in proportion to the number of remaining rows after the insertion or deletion position. For very large internal tables, this can result in considerable demands on performance at runtime.
-
-The logical index is not created until the moment at which it is required, in other words, when a row is inserted before another row, if the order of the table rows is changed, or a row other than the last row is deleted. A logical index is not required if an internal table is filled using only [APPEND](javascript:call_link\('abapappend.htm'\)), and if only its last row(s) is/are deleted using [DELETE](javascript:call_link\('abapdelete_itab.htm'\)).
-
-Note
-
-In contrast to filling a table with [INSERT](javascript:call_link\('abapinsert_itab.htm'\)), appending rows with [APPEND](javascript:call_link\('abapappend.htm'\)) does not require any resources for index maintenance. It is therefore preferable to use APPEND instead of INSERT to create a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry"). This is possible if the order of the entries is not important, or if entries can be appended in the correct order.
-
-Block Processing of Table Rows
-
-If whole row areas of a table can be processed at once, this should not be done in rows, but using block operations instead. Block operations are possible using the FROM and TO additions of the statements [INSERT](javascript:call_link\('abapinsert_itab.htm'\)), [APPEND](javascript:call_link\('abapappend.htm'\)) and [DELETE](javascript:call_link\('abapdelete_itab.htm'\)). Block operations are also more efficient than single record operations when reading from or modifying database tables with [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statements with the additions FROM*|*APPENDING*|*TO TABLE.
-
-Selective Data Transport
-
-If, when reading table rows using [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), a work area is used or table rows can be changed using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) instead of by direct access, the TRANSPORTING addition can be used to prevent unnecessary assignments of table components to the work area. This can lead to a noticeable acceleration in performance, particularly if table-like components are excluded from processing.
-
-Using Secondary Keys
-
-The [use of secondary table keys](javascript:call_link\('abenitab_key_secondary_usage.htm'\)) should be planned and executed with care. The time gained when accessing individual rows should not be lost again by the increased storage and time requirements for managing the secondary keys. Secondary keys are generally recommended for internal tables that are filled once and rarely changed during program execution.
-
-Example
-
-The program DEMO\_SECONDARY\_KEYS demonstrates how a secondary table key is specified and the resulting performance gain.
-
-Deleting Table Rows
-
-When rows are deleted from an internal table, overhead is produced for all table keys and table indexes. The primary key and all unique secondary keys are updated directly, but non-unique secondary keys are updated only if the row being deleted is included in the updated part of an associated index ([lazy update](javascript:call_link\('abenlazy_update_glosry.htm'\) "Glossary Entry")).
-
-Also note that, for standard tables, the mean runtime of the statement [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) always has a linear dependency on the number of table rows, even when secondary keys are specified using [WITH TABLE KEY](javascript:call_link\('abapdelete_itab_key.htm'\)) or [USING KEY](javascript:call_link\('abapdelete_itab_key.htm'\)). This is because a linear search is required to update the primary index, even though the row being deleted can itself be found quickly.
-
-Deleting rows in internal tables using [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) does not usually free any memory in the internal table. Statements such as [CLEAR](javascript:call_link\('abapclear.htm'\)) or [FREE](javascript:call_link\('abapfree_dataobject.htm'\)) must be used to free memory in internal tables.
-
-Free Key Specified for Sorted Tables and Hashed Tables
-
-When using the [READ](javascript:call_link\('abapread_table.htm'\)) statement with a specified free key of the form [WITH KEY ...](javascript:call_link\('abapread_table_free.htm'\)), the search is optimized in all cases where this is possible:
-
--   In [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry"), if any initial section of the [table key](javascript:call_link\('abentable_key_glosry.htm'\) "Glossary Entry") or the complete table key is covered by the specified key.
-
--   In [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry"), if the complete table key is covered.
-
-If part of a free key meets these conditions, this partial key is first used to search for an entry. In sorted tables, this is performed using a binary search with a logarithmic consumption of resources, and in hashed tables by using a hash algorithm (that is, with constant resource consumption). If an entry is found, the system checks whether the rest of the key conditions are also met. This means that over-specific keys in particular are optimized.
-
-Note
-
-See also [Optimization of the WHERE Condition](javascript:call_link\('abenitab_where_optimization.htm'\)).
-
-Sorting
-
-For textual sorting of an internal table in accordance with the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry"), it is more beneficial for performance to use the statement [CONVERT TEXT INTO SORTABLE CODE](javascript:call_link\('abapconvert_text.htm'\)) instead of [SORT AS TEXT](javascript:call_link\('abapsort_itab.htm'\)) in the following cases:
-
--   If an internal table is sorted by locale and then subjected to a binary search using the statement READ TABLE or using a [table expression](javascript:call_link\('abentable_expressions.htm'\)).
-
--   An internal table must be sorted more than once.
-
--   Indexes for database tables should be structured in accordance with a locale.
-
-This translation does not reflect the current version of the documentation.
-Continue
-[Optimization of the WHERE Condition](javascript:call_link\('abenitab_where_optimization.htm'\))
-
-
-### abenitab_where_optimization.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Internal Tables: Performance Notes](javascript:call_link\('abenitab_perfo.htm'\)) → 
-
-Optimization of the WHERE Condition
-
-The statements [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), [DELETE](javascript:call_link\('abapdelete_itab.htm'\)), and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) can be specified together with a WHERE condition that selects specific rows of the internal table. Searches in a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") using the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") are always linear and cannot be optimized. Searches using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") or a [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry"), however, can be optimized in certain circumstances. These keys are used when:
-
--   editing a [sorted table](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") using its primary key.
-
--   editing a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") using its primary key.
-
--   editing a table (any type) using a [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") specified by USING KEY.
-
-The optimization takes place because all [relational expressions](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") or a group of the relational expressions in the WHERE condition are mapped to a specified key. This specified key performs an appropriate optimized key read (binary search or hash algorithm as in the statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a [table expression](javascript:call_link\('abentable_expressions.htm'\))), to find one or more rows. The row or rows in question are then checked using those remaining relational expressions from the WHERE condition that were not mapped to the specified key.
-
-Prerequisites for the optimization are, therefore, as follows:
-
--   The relational expressions of the WHERE condition can be transformed to a specified key.
-
--   The corresponding key read returns the same results as would the evaluation of this part of the logical expression. This is guaranteed only for compatible data types, since in the case of incompatible data types:
-
--   the content of the specified data objects is converted to the data type of the columns before the evaluation in the case of key reads.
-
--   The [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types apply when evaluating a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry"). Here, all the data types involved play a part in determining which operand is converted into which comparison type.
-
-If there are no relational expressions or too few to meet both of these prerequisites, no optimizations are possible and the behavior is as followed:
-
--   If the primary table key is used to access a sorted table or a hashed table, all rows of the internal table are checked (as in a standard table).
-
--   If the table is read using a secondary table key (if specified after USING KEY), a syntax error or warning is produced or an exception raised. Accesses that use a secondary table key must always be optimized.
-
-The following sections describe exactly when an access can be optimized.
-
--   [Prerequisites for the Optimization of Hash Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
-
--   [Prerequisites for the Optimization of Sorted Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
-
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
+-   [Prerequisites for the Optimization of Sorted Keys](#abenitab-where-optimization-2--------requirements-made-on-the-operands---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
 
 Note
 

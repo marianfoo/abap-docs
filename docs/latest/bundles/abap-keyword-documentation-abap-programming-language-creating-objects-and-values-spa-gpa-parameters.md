@@ -19,10 +19,8 @@ SPA/GPA Parameters in the User Memory
 
 The [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry") is a user-specific [memory area](javascript:call_link\('abenmemory_organization.htm'\)) of the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry"), which can be accessed by all [ABAP sessions](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") of a user session simultaneously. ABAP programs have access to SPA/GPA parameters stored in the user memory (also referred to as SET/GET parameters).
 
--   [Properties of SPA/GPA Parameters](#@@ITOC@@ABENSPA_GPA_1)
--   [SPA/GPA Parameters and ABAP Programs](#@@ITOC@@ABENSPA_GPA_2)
--   [Managing SPA/GPA Parameters](#@@ITOC@@ABENSPA_GPA_3)
--   [SPA/GPA Parameters and Dynpro Fields](#@@ITOC@@ABENSPA_GPA_4)
+-   [Properties of SPA/GPA Parameters](#abenspa-gpa-1-------spa-gpa-parameters-and-abap-programs---@ITOC@@ABENSPA_GPA_2)
+-   [Managing SPA/GPA Parameters](#abenspa-gpa-3-------spa-gpa-parameters-and-dynpro-fields---@ITOC@@ABENSPA_GPA_4)
 
 Properties of SPA/GPA Parameters   
 

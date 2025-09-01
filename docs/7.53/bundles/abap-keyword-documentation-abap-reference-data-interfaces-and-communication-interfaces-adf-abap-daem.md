@@ -21,13 +21,9 @@ The only limit on the lifetime of an ABAP Daemon not stopped explicitly using AD
 
 The [processing of an ABAP Daemon](javascript:call_link\('abenabap_daemon_processing_glosry.htm'\) "Glossary Entry") takes place in the background and is event-driven. Both the consumer of a daemon and the ABAP runtime environment can raise [ABAP Daemon events](javascript:call_link\('abenabap_daemon_event_glosry.htm'\) "Glossary Entry") and the daemon can respond to these events using predefined interface methods. A daemon must always be ready to respond to inbound events and this is ensured by running ABAP Daemon processing in a [non-blocking mode](javascript:call_link\('abenadf_non_blocking_model.htm'\)).
 
--   [ABAP Daemon Classes](#@@ITOC@@ABENABAP_DAEMON_1)
+-   [ABAP Daemon Classes](#abenabap-daemon-1--------creating-and-using-abap-daemons---@ITOC@@ABENABAP_DAEMON_2)
 
--   [Creating and Using ABAP Daemons](#@@ITOC@@ABENABAP_DAEMON_2)
-
--   [Managing ABAP Daemons](#@@ITOC@@ABENABAP_DAEMON_3)
-
--   [ABAP Daemon Examples](#@@ITOC@@ABENABAP_DAEMON_4)
+-   [Managing ABAP Daemons](#abenabap-daemon-3--------abap-daemon-examples---@ITOC@@ABENABAP_DAEMON_4)
 
 Notes
 

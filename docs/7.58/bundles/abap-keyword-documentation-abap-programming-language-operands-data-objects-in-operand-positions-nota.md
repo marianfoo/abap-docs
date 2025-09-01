@@ -103,8 +103,7 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Object Component Selector
 
--   [Static Target](#@@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_1)
--   [Dynamic Target](#@@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_2)
+-   [Static Target](#abenobject-component-selector-1-------dynamic-target---@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_2)
 
 Static Target   
 

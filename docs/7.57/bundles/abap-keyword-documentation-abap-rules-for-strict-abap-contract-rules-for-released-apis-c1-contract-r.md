@@ -320,8 +320,7 @@ are [allowed to be changed](javascript:call_link\('abenc1_provider_rules_elem.ht
 
 All these changes result in a larger value range compared with the original data type. A consumer must be able to handle larger values. This impacts all operations with elementary data objects that are typed with such a type as well as operations with structured data that contain components of such a type.
 
--   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_ELEM_1)
--   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_ELEM_2)
+-   [Operations with Elementary Data Objects](#abenc1-consumer-rules-elem-1-------operations-with-structures---@ITOC@@ABENC1_CONSUMER_RULES_ELEM_2)
 
 Operations with Elementary Data Objects   
 
@@ -366,71 +365,9 @@ C1 Contract Rules for Consuming Structures
 
 Non-key elements can be added to or changed in global types as structured [DDIC types](javascript:call_link\('abenc1_provider_rules_ddic.htm'\)) or [CDS entities](javascript:call_link\('abenc1_provider_rules_cds.htm'\)). These types can be released APIs themselves or can be used for typing attributes or method parameters of released classes or interfaces. Also the position of non-key elements can be changed. This impacts all operations with APIs that rely on a certain number of components of a structure and on their position. Main examples are:
 
--   [Includes](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_1)
--   [Assignments and Comparisons](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_2)
--   [Unstructured Access](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_3)
--   [Field Symbols](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_4)
--   [RFC](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_5)
-
-Includes   
-
-Including a released structure into another structure.
-
-Possible Problems
-
-Error, when a component is added that already exists.
-
-Mitigation
-
-Include a released structure only by renaming its components with [suffixes](javascript:call_link\('abenddic_include_structure.htm'\)).
-
-Assignments and Comparisons   
-
-Assignments and comparisons between data objects that are typed with the released structured type and data objects that are typed otherwise can occur for:
-
--   [Logical Expressions](javascript:call_link\('abenlogexp.htm'\))
--   [Assignments](javascript:call_link\('abenvalue_assignments.htm'\))
--   [Working with internal tables](javascript:call_link\('abenitab.htm'\))
--   [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\))
--   [Working with data clusters](javascript:call_link\('abendata_cluster.htm'\))
-
-Possible Problems
-
-Depending on the change all kinds of errors might occur. The following allowed changes in particular can affect the rules for processing structures fundamentally:
-
--   Adding numeric components to a formerly character-like structure.
--   Adding [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") components to a formerly [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") structure.
--   Shifting the positions of numeric or deep components to formerly character-like sections.
-
-Mitigation
-
-No assignments or comparisons between released structures and data objects that are typed otherwise. No usage of otherwise defined structures in ABAP SQL. The various CORRESPONDING mechanisms can be used to mitigate the problem, but they are not failsafe in all situations.
-
-Unstructured Access   
-
-Processing the content of a released structure without addressing single components as for example:
-
--   [Offset/Length Specifications](javascript:call_link\('abenoffset_length.htm'\))
--   [String processing](javascript:call_link\('abenabap_data_string.htm'\)) (on complete structure)
-
-Possible Problems
-
-Depending on the change (see above) all kinds of errors might occur.
-
-Mitigation
-
-No processing of released structures without accessing single components.
-
-Field Symbols   
-
-Addressing released structures with [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") by using:
-
--   [ASSIGN](javascript:call_link\('abapassign.htm'\))
--   ASSIGNING addition when [working with internal tables](javascript:call_link\('abenitab.htm'\))
-
-Possible Problems
-
-When the addition [CASTING](abapassign_casting.htm#!ABAP_ALTERNATIVE_2@2@) is used, deep components must appear with exactly the same type and position in the assigned structure.
+-   [Includes](#abenc1-consumer-rules-struct-1-------assignments-and-comparisons---@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_2)
+-   [Unstructured Access](#abenc1-consumer-rules-struct-3-------field-symbols---@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_4)
+-   [RFC](#abenc1-consumer-rules-struct-5---includes-----including-a-released-structure-into-another-structure---possible-problems--error--when-a-component-is-added-that-already-exists---mitigation--include-a-released-structure-only-by-renaming-its-components-with--suffixes--javascript-call-link---abenddic-include-structure-htm-------assignments-and-comparisons-----assignments-and-comparisons-between-data-objects-that-are-typed-with-the-released-structured-type-and-data-objects-that-are-typed-otherwise-can-occur-for--------logical-expressions--javascript-call-link---abenlogexp-htm----------assignments--javascript-call-link---abenvalue-assignments-htm----------working-with-internal-tables--javascript-call-link---abenitab-htm----------abap-sql--javascript-call-link---abenabap-sql-htm----------working-with-data-clusters--javascript-call-link---abendata-cluster-htm------possible-problems--depending-on-the-change-all-kinds-of-errors-might-occur--the-following-allowed-changes-in-particular-can-affect-the-rules-for-processing-structures-fundamentally-------adding-numeric-components-to-a-formerly-character-like-structure------adding--deep--javascript-call-link---abendeep-glosry-htm-----glossary-entry---components-to-a-formerly--flat--javascript-call-link---abenflat-glosry-htm-----glossary-entry---structure------shifting-the-positions-of-numeric-or-deep-components-to-formerly-character-like-sections---mitigation--no-assignments-or-comparisons-between-released-structures-and-data-objects-that-are-typed-otherwise--no-usage-of-otherwise-defined-structures-in-abap-sql--the-various-corresponding-mechanisms-can-be-used-to-mitigate-the-problem--but-they-are-not-failsafe-in-all-situations---unstructured-access-----processing-the-content-of-a-released-structure-without-addressing-single-components-as-for-example--------offset-length-specifications--javascript-call-link---abenoffset-length-htm----------string-processing--javascript-call-link---abenabap-data-string-htm------on-complete-structure---possible-problems--depending-on-the-change--see-above--all-kinds-of-errors-might-occur---mitigation--no-processing-of-released-structures-without-accessing-single-components---field-symbols-----addressing-released-structures-with--field-symbols--javascript-call-link---abenfield-symbol-glosry-htm-----glossary-entry---by-using--------assign--javascript-call-link---abapassign-htm---------assigning-addition-when--working-with-internal-tables--javascript-call-link---abenitab-htm------possible-problems--when-the-addition--casting--abapassign-casting-htm--abap-alternative-22@) is used, deep components must appear with exactly the same type and position in the assigned structure.
 
 Mitigation
 

@@ -63,10 +63,8 @@ Generally, a repository object that is classified with the C1 contract must not 
 
 The following sections show the most important rules that a C1 contract imposes on different kinds of repository objects.
 
--   [General Rules for Elementary Data Types](#@@ITOC@@ABENC1_PROVIDER_RULES_1)
--   [Dictionary Objects](#@@ITOC@@ABENC1_PROVIDER_RULES_2)
--   [ABAP CDS Objects](#@@ITOC@@ABENC1_PROVIDER_RULES_3)
--   [Objects implemented in ABAP](#@@ITOC@@ABENC1_PROVIDER_RULES_4)
+-   [General Rules for Elementary Data Types](#abenc1-provider-rules-1-------dictionary-objects---@ITOC@@ABENC1_PROVIDER_RULES_2)
+-   [ABAP CDS Objects](#abenc1-provider-rules-3-------objects-implemented-in-abap---@ITOC@@ABENC1_PROVIDER_RULES_4)
 
 General Rules for Elementary Data Types
 
@@ -197,16 +195,11 @@ The [provider rules](javascript:call_link\('abenc1_provider_rules.htm'\)) for ob
 
 The following sections list allowed changes to released APIs that must be considered when accessing them.
 
--   [Changes to Elementary Data Types](#@@ITOC@@ABENC1_CONSUMER_RULES_1)
-    -   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_2)
-    -   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_3)
--   [Adding or Changing Non-key Elements of Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_4)
-    -   [Includes](#@@ITOC@@ABENC1_CONSUMER_RULES_5)
-    -   [Assignments and Comparisons](#@@ITOC@@ABENC1_CONSUMER_RULES_6)
-    -   [Unstructured Access](#@@ITOC@@ABENC1_CONSUMER_RULES_7)
-    -   [Field Symbols](#@@ITOC@@ABENC1_CONSUMER_RULES_8)
-    -   [RFC](#@@ITOC@@ABENC1_CONSUMER_RULES_9)
--   [Example](#@@ITOC@@ABENC1_CONSUMER_RULES_10)
+-   [Changes to Elementary Data Types](#abenc1-consumer-rules-1-----------operations-with-elementary-data-objects---@ITOC@@ABENC1_CONSUMER_RULES_2)
+    -   [Operations with Structures](#abenc1-consumer-rules-3-------adding-or-changing-non-key-elements-of-structures---@ITOC@@ABENC1_CONSUMER_RULES_4)
+    -   [Includes](#abenc1-consumer-rules-5-----------assignments-and-comparisons---@ITOC@@ABENC1_CONSUMER_RULES_6)
+    -   [Unstructured Access](#abenc1-consumer-rules-7-----------field-symbols---@ITOC@@ABENC1_CONSUMER_RULES_8)
+    -   [RFC](#abenc1-consumer-rules-9-------example---@ITOC@@ABENC1_CONSUMER_RULES_10)
 
 Changes to Elementary Data Types
 

@@ -14,7 +14,10 @@
     "generate:756": "node scripts/generate-md-bundles.js --version 7.56 --force",
     "scrape:latest": "node scripts/scrape-abap-docs.js --version latest --force",
     "generate:758": "node scripts/generate-md-bundles.js --version 7.58 --force",
-    "generate:latest": "node scripts/generate-md-bundles.js --version latest --force"
+    "generate:latest": "node scripts/generate-md-bundles.js --version latest --force",
+    "enhance": "node scripts/enhance-abap-docs.js",
+    "enhance:all": "node scripts/enhance-abap-docs.js --all",
+    "enhance:758": "node scripts/enhance-abap-docs.js --version 7.58 --force"
   },
   "keywords": [],
   "author": "",

@@ -296,9 +296,7 @@ Native SQL Access to ABAP-Managed Database Objects
 
 Two methods of Native SQL access to [ABAP-managed database objects](javascript:call_link\('abenabap_managed_db_object_glosry.htm'\) "Glossary Entry") can be distinguished.
 
--   [Access Using ABAP-Managed Native SQL](#@@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_1)
-
--   [Access Using Non-ABAP-Managed Native SQL](#@@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_2)
+-   [Access Using ABAP-Managed Native SQL](#abenabap-managed-db-objects-nsql-1--------access-using-non-abap-managed-native-sql---@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_2)
 
 Access Using ABAP-Managed Native SQL
 

@@ -19,58 +19,11 @@ Structures are data objects (comprised of components of any data type) that are 
 
 In a program, a structured type or structure is created using the additions [BEGIN OF ... END OF](javascript:call_link\('abaptypes_struc.htm'\)) of the statements TYPES, DATA and so on. Types can be created dynamically using the [RTTC](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") methods. In ABAP Dictionary, structures appear as [standalone data types](javascript:call_link\('abenddic_structures.htm'\)), as types of [database tables](javascript:call_link\('abenddic_database_tables.htm'\)), of [classic views](javascript:call_link\('abenddic_classical_views.htm'\)) or of [CDS entities](javascript:call_link\('abenddic_cds_entities.htm'\)).
 
--   [Types of Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_1)
+-   [Types of Structures](#abendata-objects-structure-1--------using-structures---@ITOC@@ABENDATA_OBJECTS_STRUCTURE_2)
 
--   [Using Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_2)
+-   [Using Deep Structures](#abendata-objects-structure-3--------using-deep-abap-dictionary-structures---@ITOC@@ABENDATA_OBJECTS_STRUCTURE_4)
 
--   [Using Deep Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_3)
-
--   [Using Deep ABAP Dictionary Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_4)
-
--   [Boxed Components](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_5)
-
-Programming Guidelines
-
--   [Names of Structure Components](javascript:call_link\('abenstruc_comp_names_guidl.htm'\) "Guideline")
-    
--   [Do not include components from structures](javascript:call_link\('abenincluding_structures_guidl.htm'\) "Guideline")
-    
-
-Types of Structures
-
-Structures are named as follows (depending on the type of the component):
-
--   Flat structures do not contain any [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") components. They only contain components with flat data types, such as elementary types c, n, d, t, decfloat16, decfloat34, f, i, int8, p, x, plus b, s (or structures with these types).
-
--   Flat character-like structures are flat structures that contain only [character-like](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") components.
-
--   Nested structures contain at least one [substructure](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry"). A nested structure is flat or character-like, depending on the attributes of all components.
-
--   Deep structures contain at least one [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") component, at any nesting level. Possible deep components include strings, internal tables, boxed components, data or object references.
-
-A structure that contains static or dynamic components is (formally) a [static](javascript:call_link\('abenstatic_data_object_glosry.htm'\) "Glossary Entry") or [dynamic data object](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"), respectively.
-
-The following figure illustrates a deep structure.
-
-![Figure](abdoc_deep_structure.gif)
-
-Note
-
-The term "nested structure" must not be confused with the term "deep structure". A nested structure is flat if it only contains flat components and subcomponents. A nested structure is deep when it has at least one deep component or subcomponent.
-
-Example
-
-Nested structure. The substructure is created using a reference to the dictionary structure SCARR for the second component. The components are accessed using the structure component selector (\-).
-
-DATA:
-  BEGIN OF struct,
-    name  TYPE c LENGTH 10 VALUE 'SCARR',
-    scarr TYPE scarr,
-  END OF struct.
-SELECT SINGLE \*
-       FROM scarr
-       WHERE carrid = 'LH'
-       INTO CORRESPONDING FIELDS OF @struct-scarr.
+-   [Boxed Components](#abendata-objects-structure-5---programming-guidelines-------names-of-structure-components--javascript-call-link---abenstruc-comp-names-guidl-htm-----guideline-------------do-not-include-components-from-structures--javascript-call-link---abenincluding-structures-guidl-htm-----guideline---------types-of-structures--structures-are-named-as-follows--depending-on-the-type-of-the-component--------flat-structures-do-not-contain-any--deep--javascript-call-link---abendeep-glosry-htm-----glossary-entry---components--they-only-contain-components-with-flat-data-types--such-as-elementary-types-c--n--d--t--decfloat16--decfloat34--f--i--int8--p--x--plus-b--s--or-structures-with-these-types--------flat-character-like-structures-are-flat-structures-that-contain-only--character-like--javascript-call-link---abencharlike-data-object-glosry-htm-----glossary-entry---components-------nested-structures-contain-at-least-one--substructure--javascript-call-link---abensubstructure-glosry-htm-----glossary-entry----a-nested-structure-is-flat-or-character-like--depending-on-the-attributes-of-all-components-------deep-structures-contain-at-least-one--deep--javascript-call-link---abendeep-glosry-htm-----glossary-entry---component--at-any-nesting-level--possible-deep-components-include-strings--internal-tables--boxed-components--data-or-object-references---a-structure-that-contains-static-or-dynamic-components-is--formally--a--static--javascript-call-link---abenstatic-data-object-glosry-htm-----glossary-entry---or--dynamic-data-object--javascript-call-link---abendynamic-data-object-glosry-htm-----glossary-entry----respectively---the-following-figure-illustrates-a-deep-structure-----figure--abdoc-deep-structure-gif---note--the-term--nested-structure--must-not-be-confused-with-the-term--deep-structure---a-nested-structure-is-flat-if-it-only-contains-flat-components-and-subcomponents--a-nested-structure-is-deep-when-it-has-at-least-one-deep-component-or-subcomponent---example--nested-structure--the-substructure-is-created-using-a-reference-to-the-dictionary-structure-scarr-for-the-second-component--the-components-are-accessed-using-the-structure-component-selector--------data----begin-of-struct------name--type-c-length-10-value--scarr-------scarr-type-scarr----end-of-struct--select-single-----------from-scarr--------where-carrid----lh---------into-corresponding-fields-of-struct-scarr.
 cl\_demo\_output=>new(
 )->write\_data( struct-name
 )->write\_data( struct-scarr-carrid

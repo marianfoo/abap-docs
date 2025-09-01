@@ -43,17 +43,11 @@ ABAP Doc
 
 ABAP Doc allows [declarations](javascript:call_link\('abendeclaration_glosry.htm'\) "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. In an ABAP development environment , such as [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), which supports [ABAP Doc](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), the content of ABAP Doc comments is evaluated, converted to HTML, and then displayed appropriately.
 
--   [ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
+-   [ABAP Doc Comments](#abendoccomment-1--------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
 
--   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#abendoccomment-3--------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
 
--   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
-
--   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
-
--   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
-
--   [Test Relations](#@@ITOC@@ABENDOCCOMMENT_6)
+-   [Documentation Links](#abendoccomment-5--------test-relations---@ITOC@@ABENDOCCOMMENT_6)
 
 ABAP Doc Comments
 
@@ -402,145 +396,7 @@ Pragmas are [program directives](javascript:call_link\('abenprogram_directive_gl
 
 For more information, see:
 
--   [Positioning of Pragmas in ABAP Source Code](#@@ITOC@@ABENPRAGMA_1) transportable
-
-Syntax
-
-A pragma is structured as follows:
-
-##code\[par\]\[par\]...
-
-It is not case-sensitive and does not contain blanks. The pragma code (code) determines the effect and parameters (par) further restrict the effect if necessary.
-
-A message is affected by a pragma if all the parameters specified match the concrete parameters. The concrete parameters can also be taken from the long text of the message. Compulsory parameters are underlined in the long text and must not be omitted. Non-compulsory parameters are optional. Optional parameters can be omitted using empty parentheses \[\] at the appropriate position or by completely omitting an end part.
-
-Hints
-
--   The existence of a pragma for a system check warning can be checked using the long text of the message, which in this case always exists. The description of a message in the extended program check is also lists the pragma, which can be used to hide it.
-
--   Pragmas replace the previously used [pseudo comments](javascript:call_link\('abenpseudo_comment_slin.htm'\)) to hide warnings from the extended program check. These pseudo comments therefore are obsolete and should no longer be used. The program ABAP\_SLIN\_PRAGMAS shows which pragmas are to be used instead of the obsolete pseudo comments.
-
--   In a program that uses pragmas to deactivate warnings, the statement [SET EXTENDED CHECK](javascript:call_link\('abapset_extended_check.htm'\)) and the [pseudo comment](javascript:call_link\('abenpseudo_comment_slin.htm'\)) #EC \* can no longer be used and produce an extended program check warning that cannot be deactivated.
-
--   A pragma in a type definition made using [TYPES](javascript:call_link\('abaptypes.htm'\)) -for example, to hide the warning for redundant secondary keys of table types- can also be applied to data declarations using [DATA](javascript:call_link\('abapdata.htm'\)) in the case of non-generic types and related statements that reference the data type using [TYPE](javascript:call_link\('abapdata_referring.htm'\)). If a reference is made to a generic data type defined using TYPES, that is, a table type for which no primary table key is defined, a pragma specified there is not applied to the data declaration, since it implicitly uses a full table type implicitly and the pragma must potentially be specified again.
-
-Example
-
-An example of a pragma for syntax check warnings is:
-
-##SHADOW
-
-This pragma can be used to hide a syntax warning in a method definition that reports the hiding of a built-in function. The pragma has an optional parameter in which the name of the function can be specified as well.
-
-##SHADOW\[SUBSTRING\]
-
-A warning about "SUBSTRING" is suppressed using one of the following:
-
--   ##SHADOW
-
--   ##SHADOW\[SUBSTRING\]
-
--   ##SHADOW\[\]
-
-but not using SHADOW\[FIND\].
-
-Example
-
-An example of pragmas for hiding warnings from the extended program check is:
-
-DATA TEXT TYPE STRING   ##needed.
-
-text  = 'Hello Pragmas' ##no\_text.
-
-Examples
-
-In some executable examples for key accesses to internal tables ([read](javascript:call_link\('abenread_itab_using_key_abexa.htm'\)), [delete](javascript:call_link\('abendelete_itab_using_key_abexa.htm'\))), syntax warnings are hidden by the associated pragma. The pragmas were found in the long text of the syntax warnings.
-
-Positioning of Pragmas in ABAP Source Code
-
-A pragma applies to the current statement, that is to the statement that ends at the next "." or ",". Pragmas in front of the ":" of a chained statement apply to the entire chained statement. Pragmas that are used when calling a [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") apply to all statements of the macro.
-
-Pragmas must only be used at specific positions in the source code for reasons of readability, namely:
-
--   At the start of a line, after any number of blanks
-
--   At the end of a line, only followed by ".", ",", or ":".
-
--   Not after ".", ",", or ":".
-    Multiple pragmas may be positioned one after another -separated by blanks- at allowed positions.
-
-Unknown, formally incorrect, or incorrectly parameterized pragmas lead to a syntax warning. Incorrectly positioned pragmas for warnings in the syntax check have no effect. warning.
-
-
-### abenpseudo_comment.htm
-
-  
-
-* * *
-
-AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) → 
-
-Pseudo Comments
-
-Pseudo comments are [program directives](javascript:call_link\('abenprogram_directive_glosry.htm'\) "Glossary Entry") for influencing checks and test runs. Pseudo comments have mostly become [obsolete](javascript:call_link\('abenpseudo_comments_obsolete.htm'\)) and have been replaced by [pragmas](javascript:call_link\('abenpragma.htm'\)) or real additions.
-
-Non-Obsolete Pseudo Comments
-
--   [Pseudo Comments for Code Inspector](javascript:call_link\('abenpseudo_comment_ci.htm'\))
-
-Obsolete Pseudo Comments
-
--   [Pseudo Comments for the Extended Program Check](javascript:call_link\('abenpseudo_comment_slin.htm'\))
-
--   [Pseudo Comments for Test Classes](javascript:call_link\('abenpseudo_comment_test_class.htm'\))
-
-Hint
-
-Only one pseudo comment can be specified per program line. To specify multiple pseudo comments for a statement, they must be split into multiple lines.
-
-Continue
-[Pseudo Comments for Code Inspector](javascript:call_link\('abenpseudo_comment_ci.htm'\))
-
-
-### abenpseudo_comment_ci.htm
-
-  
-
-* * *
-
-AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) →  [Pseudo Comments](javascript:call_link\('abenpseudo_comment.htm'\)) → 
-
-Pseudo Comments for Code Inspector
-
-The character string "#EC behind a statement or a part of a statement followed by an abbreviation with the prefix CI\_ defines a [pseudo comment](javascript:call_link\('abenpseudo_comment_glosry.htm'\) "Glossary Entry") for the [Code Inspector](javascript:call_link\('abencode_inspector_glosry.htm'\) "Glossary Entry").
-
-These pseudo comments can be used to hide certain warnings from Code Inspector for the relevant statement. The possible abbreviations are documented with the Code Inspector or in the output of its messages.
-
-Hints
-
--   Until now, only the pseudo comments for the Code Inspector have not been replaced by other language elements.
-
--   To hide multiple warnings from a statement with pseudo comments, the statement must be split into multiple lines.
-
-Example
-
-The following [join expression](javascript:call_link\('abenjoin_expression_glosry.htm'\) "Glossary Entry") bypasses [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry"), which raises a warning of the Code Inspector. However, if the SELECT statement is part of an application that buffers selected data itself, however, the warning can be hidden as shown here. An additional regular comment illustrates to the user why the pseudo comment is being used.
-
-SELECT d~object, h~dokldate, h~dokltime   "#EC CI\_BUFFJOIN
-  FROM dokil AS d                         "Buffering is done
-       INNER JOIN dokhl AS h              "by application
-         ON h~id         = d~id     AND   "with Shared Objects
-            h~object     = d~object AND
-            h~typ        = d~typ    AND
-            h~langu      = d~langu  AND
-            h~dokversion = d~version
-  WHERE d~id    ='SD'    AND
-        d~typ   = 'E'    AND
-        d~langu = @langu AND
+-   [Positioning of Pragmas in ABAP Source Code](#abenpragma-1--transportable--syntax--a-pragma-is-structured-as-follows-----code--par----par-------it-is-not-case-sensitive-and-does-not-contain-blanks--the-pragma-code--code--determines-the-effect-and-parameters--par--further-restrict-the-effect-if-necessary---a-message-is-affected-by-a-pragma-if-all-the-parameters-specified-match-the-concrete-parameters--the-concrete-parameters-can-also-be-taken-from-the-long-text-of-the-message--compulsory-parameters-are-underlined-in-the-long-text-and-must-not-be-omitted--non-compulsory-parameters-are-optional--optional-parameters-can-be-omitted-using-empty-parentheses------at-the-appropriate-position-or-by-completely-omitting-an-end-part---hints------the-existence-of-a-pragma-for-a-system-check-warning-can-be-checked-using-the-long-text-of-the-message--which-in-this-case-always-exists--the-description-of-a-message-in-the-extended-program-check-is-also-lists-the-pragma--which-can-be-used-to-hide-it-------pragmas-replace-the-previously-used--pseudo-comments--javascript-call-link---abenpseudo-comment-slin-htm-----to-hide-warnings-from-the-extended-program-check--these-pseudo-comments-therefore-are-obsolete-and-should-no-longer-be-used--the-program-abap--slin--pragmas-shows-which-pragmas-are-to-be-used-instead-of-the-obsolete-pseudo-comments-------in-a-program-that-uses-pragmas-to-deactivate-warnings--the-statement--set-extended-check--javascript-call-link---abapset-extended-check-htm-----and-the--pseudo-comment--javascript-call-link---abenpseudo-comment-slin-htm------ec----can-no-longer-be-used-and-produce-an-extended-program-check-warning-that-cannot-be-deactivated-------a-pragma-in-a-type-definition-made-using--types--javascript-call-link---abaptypes-htm------for-example--to-hide-the-warning-for-redundant-secondary-keys-of-table-types--can-also-be-applied-to-data-declarations-using--data--javascript-call-link---abapdata-htm-----in-the-case-of-non-generic-types-and-related-statements-that-reference-the-data-type-using--type--javascript-call-link---abapdata-referring-htm------if-a-reference-is-made-to-a-generic-data-type-defined-using-types--that-is--a-table-type-for-which-no-primary-table-key-is-defined--a-pragma-specified-there-is-not-applied-to-the-data-declaration--since-it-implicitly-uses-a-full-table-type-implicitly-and-the-pragma-must-potentially-be-specified-again---example--an-example-of-a-pragma-for-syntax-check-warnings-is-----shadow--this-pragma-can-be-used-to-hide-a-syntax-warning-in-a-method-definition-that-reports-the-hiding-of-a-built-in-function--the-pragma-has-an-optional-parameter-in-which-the-name-of-the-function-can-be-specified-as-well-----shadow--substring----a-warning-about--substring--is-suppressed-using-one-of-the-following---------shadow--------shadow--substring----------shadow------but-not-using-shadow--find-----example--an-example-of-pragmas-for-hiding-warnings-from-the-extended-program-check-is---data-text-type-string-----needed---text-----hello-pragmas----no--text---examples--in-some-executable-examples-for-key-accesses-to-internal-tables---read--javascript-call-link---abenread-itab-using-key-abexa-htm-------delete--javascript-call-link---abendelete-itab-using-key-abexa-htm-------syntax-warnings-are-hidden-by-the-associated-pragma--the-pragmas-were-found-in-the-long-text-of-the-syntax-warnings---positioning-of-pragmas-in-abap-source-code--a-pragma-applies-to-the-current-statement--that-is-to-the-statement-that-ends-at-the-next-----or------pragmas-in-front-of-the-----of-a-chained-statement-apply-to-the-entire-chained-statement--pragmas-that-are-used-when-calling-a--macro--javascript-call-link---abenmacro-glosry-htm-----glossary-entry---apply-to-all-statements-of-the-macro---pragmas-must-only-be-used-at-specific-positions-in-the-source-code-for-reasons-of-readability--namely-------at-the-start-of-a-line--after-any-number-of-blanks------at-the-end-of-a-line--only-followed-by-----------or-----------not-after-----------or----------multiple-pragmas-may-be-positioned-one-after-another--separated-by-blanks--at-allowed-positions---unknown--formally-incorrect--or-incorrectly-parameterized-pragmas-lead-to-a-syntax-warning--incorrectly-positioned-pragmas-for-warnings-in-the-syntax-check-have-no-effect--warning--------abenpseudo-comment-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------abap-syntax--javascript-call-link---abenabap-syntax-htm---------program-directives--javascript-call-link---abenprogram-directives-htm---------pseudo-comments--pseudo-comments-are--program-directives--javascript-call-link---abenprogram-directive-glosry-htm-----glossary-entry---for-influencing-checks-and-test-runs--pseudo-comments-have-mostly-become--obsolete--javascript-call-link---abenpseudo-comments-obsolete-htm-----and-have-been-replaced-by--pragmas--javascript-call-link---abenpragma-htm-----or-real-additions---non-obsolete-pseudo-comments-------pseudo-comments-for-code-inspector--javascript-call-link---abenpseudo-comment-ci-htm------obsolete-pseudo-comments-------pseudo-comments-for-the-extended-program-check--javascript-call-link---abenpseudo-comment-slin-htm-----------pseudo-comments-for-test-classes--javascript-call-link---abenpseudo-comment-test-class-htm------hint--only-one-pseudo-comment-can-be-specified-per-program-line--to-specify-multiple-pseudo-comments-for-a-statement--they-must-be-split-into-multiple-lines---continue--pseudo-comments-for-code-inspector--javascript-call-link---abenpseudo-comment-ci-htm-----------abenpseudo-comment-ci-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------abap-syntax--javascript-call-link---abenabap-syntax-htm---------program-directives--javascript-call-link---abenprogram-directives-htm---------pseudo-comments--javascript-call-link---abenpseudo-comment-htm---------pseudo-comments-for-code-inspector--the-character-string---ec-behind-a-statement-or-a-part-of-a-statement-followed-by-an-abbreviation-with-the-prefix-ci---defines-a--pseudo-comment--javascript-call-link---abenpseudo-comment-glosry-htm-----glossary-entry---for-the--code-inspector--javascript-call-link---abencode-inspector-glosry-htm-----glossary-entry-----these-pseudo-comments-can-be-used-to-hide-certain-warnings-from-code-inspector-for-the-relevant-statement--the-possible-abbreviations-are-documented-with-the-code-inspector-or-in-the-output-of-its-messages---hints------until-now--only-the-pseudo-comments-for-the-code-inspector-have-not-been-replaced-by-other-language-elements-------to-hide-multiple-warnings-from-a-statement-with-pseudo-comments--the-statement-must-be-split-into-multiple-lines---example--the-following--join-expression--javascript-call-link---abenjoin-expression-glosry-htm-----glossary-entry---bypasses--table-buffering--javascript-call-link---abentable-buffering-glosry-htm-----glossary-entry----which-raises-a-warning-of-the-code-inspector--however--if-the-select-statement-is-part-of-an-application-that-buffers-selected-data-itself--however--the-warning-can-be-hidden-as-shown-here--an-additional-regular-comment-illustrates-to-the-user-why-the-pseudo-comment-is-being-used---select-d-object--h-dokldate--h-dokltime-----ec-ci--buffjoin---from-dokil-as-d--------------------------buffering-is-done--------inner-join-dokhl-as-h---------------by-application----------on-h-id-----------d-id-----and----with-shared-objects-------------h-object-------d-object-and-------------h-typ----------d-typ----and-------------h-langu--------d-langu--and-------------h-dokversion---d-version---where-d-id------sd-----and---------d-typ------e-----and---------d-langu---langu AND
         d~object LIKE 'AB%'
   INTO CORRESPONDING FIELDS OF TABLE docu\_tab.
 

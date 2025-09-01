@@ -108,25 +108,15 @@ ABAP CDS - Language Elements
 
 The following sections summarize the language elements of the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") and [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry") in [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry"), arranged by topics.
 
--   [DDL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_1)
+-   [DDL](#abencds-language-elements-1--------cds-annotation-definitions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_2)
 
--   [CDS Annotation Definitions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_2)
+-   [CDS Views](#abencds-language-elements-3--------cds-view-enhancements---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_4)
 
--   [CDS Views](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_3)
+-   [CDS Table Functions](#abencds-language-elements-5--------cds-hierarchies---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_6)
 
--   [CDS View Enhancements](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_4)
+-   [Abstract CDS Entities](#abencds-language-elements-7--------cds-metadata-extensions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_8)
 
--   [CDS Table Functions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_5)
-
--   [CDS Hierarchies](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_6)
-
--   [Abstract CDS Entities](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_7)
-
--   [CDS Metadata Extensions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_8)
-
--   [DCL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_9)
-
--   [CDS Roles](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
+-   [DCL](#abencds-language-elements-9--------cds-roles---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
 
 -   [CDS access policy](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_11)
 

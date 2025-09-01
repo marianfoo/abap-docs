@@ -36,13 +36,9 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 System class CL\_ABAP\_MATH
 
--   [Constants for minimum and maximum values](#@@ITOC@@ABENFLOATING_POINT_CLASS_1)
+-   [Constants for minimum and maximum values](#abenfloating-point-class-1--------operations-with-floating-point-numbers---@ITOC@@ABENFLOATING_POINT_CLASS_2)
 
--   [Operations with Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_2)
-
--   [Rounding Binary Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_3)
-
--   [Operations with Decimal Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_4)
+-   [Rounding Binary Floating Point Numbers](#abenfloating-point-class-3--------operations-with-decimal-floating-point-numbers---@ITOC@@ABENFLOATING_POINT_CLASS_4)
 
 Constants for minimum and maximum values
 

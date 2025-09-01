@@ -38,13 +38,9 @@ Automatic Authorization Checks
 
 The following authorization checks take place automatically when data is accessed:
 
--   [Authorization Check in the Operating System](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_1)
+-   [Authorization Check in the Operating System](#abenfile-interface-authority-1--------authorization-checks-for-special-files---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2)
 
--   [Authorization Checks for Special Files](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2)
-
--   [Authorization Object S\_DATASET](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_3)
-
--   [Database Table SPTH and Authorization Object S\_PATH](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_4)
+-   [Authorization Object S\_DATASET](#abenfile-interface-authority-3--------database-table-spth-and-authorization-object-s--path---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_4)
 
 Authorization Check in the Operating System
 
@@ -335,13 +331,9 @@ Alongside the [automatic authorization checks](javascript:call_link\('abenfile_i
 
 However if logical file names are consistently used, there is no need for validation.
 
--   [Using Logical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_1)
+-   [Using Logical File Names](#abendataset-auth-self-1--------using-physical-file-names---@ITOC@@ABENDATASET_AUTH_SELF_2)
 
--   [Using Physical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_2)
-
--   [Self-Programmed Validation](#@@ITOC@@ABENDATASET_AUTH_SELF_3)
-
--   [Validation with logical file names](#@@ITOC@@ABENDATASET_AUTH_SELF_4)
+-   [Self-Programmed Validation](#abendataset-auth-self-3--------validation-with-logical-file-names---@ITOC@@ABENDATASET_AUTH_SELF_4)
 
 Using Logical File Names
 

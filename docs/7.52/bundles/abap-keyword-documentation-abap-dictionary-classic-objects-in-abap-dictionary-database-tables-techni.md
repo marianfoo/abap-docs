@@ -257,9 +257,7 @@ Table Buffering of Database Tables
 
 It is possible to specify whether [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry") in the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") is allowed for a database table and also how it is performed.
 
--   [Buffering Permission](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_1)
-
--   [Buffering Type](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
+-   [Buffering Permission](#abenddic-database-tables-buffer-1--------buffering-type---@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
 
 The table buffer is managed by the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry"). When [Open SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") reads are made on tables with activated buffering or if these tables are accessed from classic [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), the table buffer is used implicitly.
 

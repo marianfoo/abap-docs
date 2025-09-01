@@ -201,8 +201,7 @@ AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
 Functions and Expressions for Operand Positions
 
--   [Write Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_1)
--   [Read Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2)
+-   [Write Positions](#abenfunctions-expressions-1-------read-positions---@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2)
 
 Write Positions   
 

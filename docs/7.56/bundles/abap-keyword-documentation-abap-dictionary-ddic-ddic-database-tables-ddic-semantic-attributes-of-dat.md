@@ -598,8 +598,7 @@ DDIC - Indexes in Database Tables
 
 An index in a DDIC database table helps to speed up the selection of rows. An index is a sorted copy of selected DDIC database table fields. An additional field contains a pointer to the actual table lines. Sorting enables faster access to the lines in the table, for example in binary searches. A DDIC database table has at least one [primary index](javascript:call_link\('abenprimary_index_glosry.htm'\) "Glossary Entry") defined by its key fields. It can also have one or more optional [secondary indexes](javascript:call_link\('abensecondary_index_glosry.htm'\) "Glossary Entry").
 
--   [Primary Index](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_1)
--   [Secondary Indexes](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_2)
+-   [Primary Index](#abenddic-database-tables-index-1-------secondary-indexes---@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_2)
 -   [Full Text Index](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_3)
 
 Primary Index

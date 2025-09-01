@@ -421,9 +421,7 @@ If the formal parameter has a generic type, the non-specified type attributes ar
 
 If a literal meets the type requirements of the parameter, its contents are assigned to the formal parameter according to the relevant [conversion rules for elementary data types](javascript:call_link\('abenconversion_elementary.htm'\)). However, in contrast to the normal application of these rules, a non-catchable exception is raised if the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") of the target is exceeded.
 
--   [Checking Character Literals](#@@ITOC@@ABENTYPING_LITERALS_1)
-
--   [Checking Numeric Literals](#@@ITOC@@ABENTYPING_LITERALS_2)
+-   [Checking Character Literals](#abentyping-literals-1--------checking-numeric-literals---@ITOC@@ABENTYPING_LITERALS_2)
 
 Checking Character Literals
 
@@ -560,13 +558,9 @@ The parameters are read from left to right (and from inside to outside) and the 
 
 Special rules apply to typing checks, identifying the calculation type, and parameter passes.
 
--   [Checking Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_1)
+-   [Checking Typing](#abentyping-arith-expr-1--------calculation-type-and-calculation-length---@ITOC@@ABENTYPING_ARITH_EXPR_2)
 
--   [Calculation Type and Calculation Length](#@@ITOC@@ABENTYPING_ARITH_EXPR_2)
-
--   [Passing Parameters](#@@ITOC@@ABENTYPING_ARITH_EXPR_3)
-
--   [Fully Typed](#@@ITOC@@ABENTYPING_ARITH_EXPR_4)
+-   [Passing Parameters](#abentyping-arith-expr-3--------fully-typed---@ITOC@@ABENTYPING_ARITH_EXPR_4)
 
 -   [Generically Typed](#@@ITOC@@ABENTYPING_ARITH_EXPR_5)
 

@@ -75,13 +75,9 @@ The following figure shows the general organization of sessions for ABAP program
 
 ![Figure](abdoc_memory1.gif)
 
--   [AS Instance](#@@ITOC@@ABENMEMORY_ORGANIZATION_1)
+-   [AS Instance](#abenmemory-organization-1--------user-session---@ITOC@@ABENMEMORY_ORGANIZATION_2)
 
--   [User Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_2)
-
--   [ABAP Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_3)
-
--   [Internal Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_4)
+-   [ABAP Session](#abenmemory-organization-3--------internal-session---@ITOC@@ABENMEMORY_ORGANIZATION_4)
 
 AS Instance
 
@@ -239,21 +235,13 @@ The following figure shows the memory organization within an [internal session](
 
 ![Figure](abdoc_memory2.gif)
 
--   [Program Groups](#@@ITOC@@ABENINTERNAL_SESSION_1)
+-   [Program Groups](#abeninternal-session-1--------main-program-group---@ITOC@@ABENINTERNAL_SESSION_2)
 
--   [Main Program Group](#@@ITOC@@ABENINTERNAL_SESSION_2)
+-   [Additional Program Group](#abeninternal-session-3--------main-program-of-a-program-group---@ITOC@@ABENINTERNAL_SESSION_4)
 
--   [Additional Program Group](#@@ITOC@@ABENINTERNAL_SESSION_3)
+-   [Programs Loaded into a Program Group](#abeninternal-session-5--------data-objects---@ITOC@@ABENINTERNAL_SESSION_6)
 
--   [Main Program of a Program Group](#@@ITOC@@ABENINTERNAL_SESSION_4)
-
--   [Programs Loaded into a Program Group](#@@ITOC@@ABENINTERNAL_SESSION_5)
-
--   [Data Objects](#@@ITOC@@ABENINTERNAL_SESSION_6)
-
--   [Class Instances](#@@ITOC@@ABENINTERNAL_SESSION_7)
-
--   [Interface Work Areas](#@@ITOC@@ABENINTERNAL_SESSION_8)
+-   [Class Instances](#abeninternal-session-7--------interface-work-areas---@ITOC@@ABENINTERNAL_SESSION_8)
 
 -   [Dynpros, Lists, and GUI Statuses](#@@ITOC@@ABENINTERNAL_SESSION_9)
 

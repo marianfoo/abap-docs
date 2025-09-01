@@ -48,13 +48,9 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Time Stamps - Overview
 
--   [Representation of Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_1)
+-   [Representation of Time Stamps](#abentime-stamp-oview-1--------access-to-time-stamps---@ITOC@@ABENTIME_STAMP_OVIEW_2)
 
--   [Access to Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_2)
-
--   [Notes on Handling Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_3)
-
--   [Examples](#@@ITOC@@ABENTIME_STAMP_OVIEW_4)
+-   [Notes on Handling Time Stamps](#abentime-stamp-oview-3--------examples---@ITOC@@ABENTIME_STAMP_OVIEW_4)
 
 Representation of Time Stamps
 

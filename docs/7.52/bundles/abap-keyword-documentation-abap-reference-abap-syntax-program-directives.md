@@ -43,17 +43,11 @@ ABAP Doc
 
 ABAP Doc allows [declarations](javascript:call_link\('abendeclaration_glosry.htm'\) "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. ABAP development environments that support ABAP Doc, such as [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), analyze the content of ABAP Doc comments, convert it to HTML and display it appropriately.
 
--   [ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
+-   [ABAP Doc Comments](#abendoccomment-1--------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
 
--   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#abendoccomment-3--------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
 
--   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
-
--   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
-
--   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
-
--   [Guidelines](#@@ITOC@@ABENDOCCOMMENT_6)
+-   [Documentation Links](#abendoccomment-5--------guidelines---@ITOC@@ABENDOCCOMMENT_6)
 
 ABAP Doc Comments
 
@@ -357,9 +351,7 @@ Pragmas are [program directives](javascript:call_link\('abenprogram_directive_gl
 
 For more information, see:
 
--   [Syntax of Pragmas](#@@ITOC@@ABENPRAGMA_1)
-
--   [Positioning of Pragmas in ABAP Source Code](#@@ITOC@@ABENPRAGMA_2)
+-   [Syntax of Pragmas](#abenpragma-1--------positioning-of-pragmas-in-abap-source-code---@ITOC@@ABENPRAGMA_2)
 
 Syntax of Pragmas
 

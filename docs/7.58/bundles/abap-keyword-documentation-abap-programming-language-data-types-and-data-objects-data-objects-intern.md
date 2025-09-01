@@ -101,80 +101,15 @@ itab - Standard Key
 
 The standard key is a special [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") of an internal table.
 
--   [Key Fields of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_1)
--   [Declaration of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_2)
--   [Notes on Use](#@@ITOC@@ABENITAB_STANDARD_KEY_3)
-
-Key Fields of the Standard Key   
-
-The key fields of the standard key are defined as follows:
-
--   In tables with a structured line type, the standard key is formed from all components with [character-like](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry") and [byte-like data types](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry"), while resolving any substructures into elementary components. If the line type does not contain any components like these, the standard key is [empty](javascript:call_link\('abenitab_empty_key.htm'\)) for standard tables, meaning it does not contain any key fields.
--   The standard key for tables with non-structured line types is the entire table line, if the line type itself is not table-like. If the line type is table-like, the standard key is [empty](javascript:call_link\('abenitab_empty_key.htm'\)) for standard tables.
-
-Empty standard keys are not possible for sorted tables and hashed tables, and an error occurs if an attempt is made to create a key like this.
-
-Hints
-
--   In tables with non-structured line types, the standard key can also have a numeric type or reference type. This does not apply to the key fields if the line types are structured.
--   The [static boxes](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry") of a structured line type are handled like regular components with respect to the standard key.
-
-Declaration of the Standard Key   
-
-The standard key can be declared as follows:
-
--   Explicitly, using the additions [UNIQUE*|*NON-UNIQUE KEY](javascript:call_link\('abaptypes_primary_key.htm'\)) of the statements [TYPES](javascript:call_link\('abaptypes_primary_key.htm'\)), [DATA](javascript:call_link\('abapdata_primary_key.htm'\)) and so on, where the addition DEFAULT KEY is specified instead of the list of components.
--   Implicitly, if no explicit primary key specification is made in the declaration of a standard table with the statement [DATA](javascript:call_link\('abapdata_primary_key.htm'\)).
--   Implicitly, if a standard table type with a [generic primary table key](javascript:call_link\('abaptypes_keydef.htm'\)) is specified behind TYPE in the statement [DATA](javascript:call_link\('abapdata_referring.htm'\)).
-
-Notes on Use   
-
-Using standard keys is critical for the following reasons:
-
--   It is not usually enough to identify the key fields using their data type and not their semantic properties. This often leads to unexpected behavior in sorts and other accesses.
--   The fact that standard keys in standard tables can be [empty](javascript:call_link\('abenitab_empty_key.htm'\)) often causes unexpected behavior as well. For example, using keys like this for [sorting](javascript:call_link\('abapsort_itab.htm'\)) has no effect, whereas a corresponding [read](javascript:call_link\('abapread_table.htm'\)) finds the first line.
--   The standard key often contains too many key fields, which can produce performance problems in key accesses.
--   If using the standard key and a structured line type, all character-like and byte-like fields of sorted tables and hashed tables are read-only, which can cause unexpected runtime errors.
-
-For this reason, the primary key should be declared by listing the components explicitly, if possible. In particular, the primary key must not be set as the standard key by mistake, the key must not be forgotten in declarations of standard tables using DATA, and the generic table type must not be used unknowingly.
-
-Example
-
-Internal table with standard key. In the structure SCARR, all five components meet the requirements for the standard key and are used as key fields. In a key access using a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), the syntax check requires that each key field of the primary table key is specified.
-
-DATA scarr\_tab
-  TYPE HASHED TABLE OF scarr
-       WITH UNIQUE DEFAULT KEY.
-...
-FINAL(scarr\_line) =
-  VALUE #( scarr\_tab\[ KEY primary\_key
-                      mandt    = sy-mandt
-                      carrid   = '...'
-                      carrname = '...'
-                      currcode = '...'
-                      url      = '...' \] OPTIONAL ).
-
-
-### abenitab_empty_key.htm
-
-  
-
-* * *
-
-AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Internal Tables](javascript:call_link\('abendobj_itab.htm'\)) →  [itab - Table Key](javascript:call_link\('abenitab_key.htm'\)) →  [itab - Primary Table Key](javascript:call_link\('abenitab_key_primary.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20itab%20-%20Empty%20Table%20Key%2C%20ABENITAB_EMPTY_KEY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+-   [Key Fields of the Standard Key](#abenitab-standard-key-1-------declaration-of-the-standard-key---@ITOC@@ABENITAB_STANDARD_KEY_2)
+-   [Notes on Use](#abenitab-standard-key-3---key-fields-of-the-standard-key-----the-key-fields-of-the-standard-key-are-defined-as-follows-------in-tables-with-a-structured-line-type--the-standard-key-is-formed-from-all-components-with--character-like--javascript-call-link---abencharlike-data-type-glosry-htm-----glossary-entry---and--byte-like-data-types--javascript-call-link---abenbyte-like-data-typ-glosry-htm-----glossary-entry----while-resolving-any-substructures-into-elementary-components--if-the-line-type-does-not-contain-any-components-like-these--the-standard-key-is--empty--javascript-call-link---abenitab-empty-key-htm-----for-standard-tables--meaning-it-does-not-contain-any-key-fields------the-standard-key-for-tables-with-non-structured-line-types-is-the-entire-table-line--if-the-line-type-itself-is-not-table-like--if-the-line-type-is-table-like--the-standard-key-is--empty--javascript-call-link---abenitab-empty-key-htm-----for-standard-tables---empty-standard-keys-are-not-possible-for-sorted-tables-and-hashed-tables--and-an-error-occurs-if-an-attempt-is-made-to-create-a-key-like-this---hints------in-tables-with-non-structured-line-types--the-standard-key-can-also-have-a-numeric-type-or-reference-type--this-does-not-apply-to-the-key-fields-if-the-line-types-are-structured------the--static-boxes--javascript-call-link---abenstatic-box-glosry-htm-----glossary-entry---of-a-structured-line-type-are-handled-like-regular-components-with-respect-to-the-standard-key---declaration-of-the-standard-key-----the-standard-key-can-be-declared-as-follows-------explicitly--using-the-additions--unique---non-unique-key--javascript-call-link---abaptypes-primary-key-htm-----of-the-statements--types--javascript-call-link---abaptypes-primary-key-htm-------data--javascript-call-link---abapdata-primary-key-htm-----and-so-on--where-the-addition-default-key-is-specified-instead-of-the-list-of-components------implicitly--if-no-explicit-primary-key-specification-is-made-in-the-declaration-of-a-standard-table-with-the-statement--data--javascript-call-link---abapdata-primary-key-htm----------implicitly--if-a-standard-table-type-with-a--generic-primary-table-key--javascript-call-link---abaptypes-keydef-htm-----is-specified-behind-type-in-the-statement--data--javascript-call-link---abapdata-referring-htm-------notes-on-use-----using-standard-keys-is-critical-for-the-following-reasons-------it-is-not-usually-enough-to-identify-the-key-fields-using-their-data-type-and-not-their-semantic-properties--this-often-leads-to-unexpected-behavior-in-sorts-and-other-accesses------the-fact-that-standard-keys-in-standard-tables-can-be--empty--javascript-call-link---abenitab-empty-key-htm-----often-causes-unexpected-behavior-as-well--for-example--using-keys-like-this-for--sorting--javascript-call-link---abapsort-itab-htm-----has-no-effect--whereas-a-corresponding--read--javascript-call-link---abapread-table-htm-----finds-the-first-line------the-standard-key-often-contains-too-many-key-fields--which-can-produce-performance-problems-in-key-accesses------if-using-the-standard-key-and-a-structured-line-type--all-character-like-and-byte-like-fields-of-sorted-tables-and-hashed-tables-are-read-only--which-can-cause-unexpected-runtime-errors---for-this-reason--the-primary-key-should-be-declared-by-listing-the-components-explicitly--if-possible--in-particular--the-primary-key-must-not-be-set-as-the-standard-key-by-mistake--the-key-must-not-be-forgotten-in-declarations-of-standard-tables-using-data--and-the-generic-table-type-must-not-be-used-unknowingly---example--internal-table-with-standard-key--in-the-structure-scarr--all-five-components-meet-the-requirements-for-the-standard-key-and-are-used-as-key-fields--in-a-key-access-using-a--table-expression--javascript-call-link---abentable-expression-glosry-htm-----glossary-entry----the-syntax-check-requires-that-each-key-field-of-the-primary-table-key-is-specified---data-scarr--tab---type-hashed-table-of-scarr--------with-unique-default-key------final-scarr--line------value----scarr--tab---key-primary--key-----------------------mandt------sy-mandt-----------------------carrid---------------------------------carrname-------------------------------currcode-------------------------------url-----------------optional----------abenitab-empty-key-htm-------------as-abap-release-758---copyright-2024-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------data-types-and-data-objects--javascript-call-link---abentypes-and-objects-htm---------data-objects--javascript-call-link---abendata-objects-htm---------internal-tables--javascript-call-link---abendobj-itab-htm---------itab---table-key--javascript-call-link---abenitab-key-htm---------itab---primary-table-key--javascript-call-link---abenitab-key-primary-htm---------------mail-gif-object-mail-gif--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20itab%20-%20Empty%20Table%20Key%2C%20ABENITAB_EMPTY_KEY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 itab - Empty Table Key
 
 The [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") of a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") can be empty. An empty table key does not contain any key fields.
 
--   [Declaration](#@@ITOC@@ABENITAB_EMPTY_KEY_1)
--   [Notes on Use](#@@ITOC@@ABENITAB_EMPTY_KEY_2)
-    -   [Uncritical Use](#@@ITOC@@ABENITAB_EMPTY_KEY_3)
-    -   [Critical Use](#@@ITOC@@ABENITAB_EMPTY_KEY_4)
+-   [Declaration](#abenitab-empty-key-1-------notes-on-use---@ITOC@@ABENITAB_EMPTY_KEY_2)
+    -   [Uncritical Use](#abenitab-empty-key-3-----------critical-use---@ITOC@@ABENITAB_EMPTY_KEY_4)
 
 Hint
 
@@ -647,8 +582,7 @@ itab - Duplicate Non-Unique Keys
 
 Non-unique table keys can produce duplicate lines with respect to these keys. This section describes the order of these duplicates when inserting into tables with non-unique sorted table keys. This order is ignored with respect to non-unique primary keys in standard tables.
 
--   [Single Record Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_1)
--   [Block Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
+-   [Single Record Operations](#abenitab-key-secondary-duplicates-1-------block-operations---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
 -   [Special Features](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_3)
 
 Single Record Operations   

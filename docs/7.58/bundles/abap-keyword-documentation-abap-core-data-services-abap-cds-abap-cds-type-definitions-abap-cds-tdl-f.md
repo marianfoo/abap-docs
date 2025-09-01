@@ -268,10 +268,8 @@ Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\
 
 The first column of the table below shows the name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The fourth column shows the default value which is set implicitly if the annotation is not used explicitly. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") if the annotation is specified without a value.
 
--   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_ENUM_TYPE_ANNO_1)
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_ENUM_TYPE_ANNO_2)
--   [ObjectModel Annotations](#@@ITOC@@ABENCDS_ENUM_TYPE_ANNO_3)
--   [Inheritance of Annotations](#@@ITOC@@ABENCDS_ENUM_TYPE_ANNO_4)
+-   [AbapCatalog Annotations](#abencds-enum-type-anno-1-------endusertext-annotations---@ITOC@@ABENCDS_ENUM_TYPE_ANNO_2)
+-   [ObjectModel Annotations](#abencds-enum-type-anno-3-------inheritance-of-annotations---@ITOC@@ABENCDS_ENUM_TYPE_ANNO_4)
 
 The following tables show the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
@@ -419,16 +417,11 @@ CDS TDL - Using CDS Enumerated Types
 
 This section summarizes the use of [CDS elements](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry") with an enumerated type.
 
--   [Declaration](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_1)
--   [Operand Positions for CDS Elements with an Enumerated Type](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_2)
-    -   [CDS Enumerated Type](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_3)
-    -   [CDS Enumerated Constant](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_4)
-    -   [CDS Enumerated Element](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_5)
--   [Case Expressions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_6)
--   [Cast Expressions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_7)
--   [Comparisons](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_8)
--   [Parameter Passing](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_9)
--   [Type Descriptions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_10)
+-   [Declaration](#abencds-use-enum-type-1-------operand-positions-for-cds-elements-with-an-enumerated-type---@ITOC@@ABENCDS_USE_ENUM_TYPE_2)
+    -   [CDS Enumerated Type](#abencds-use-enum-type-3-----------cds-enumerated-constant---@ITOC@@ABENCDS_USE_ENUM_TYPE_4)
+    -   [CDS Enumerated Element](#abencds-use-enum-type-5-------case-expressions---@ITOC@@ABENCDS_USE_ENUM_TYPE_6)
+-   [Cast Expressions](#abencds-use-enum-type-7-------comparisons---@ITOC@@ABENCDS_USE_ENUM_TYPE_8)
+-   [Parameter Passing](#abencds-use-enum-type-9-------type-descriptions---@ITOC@@ABENCDS_USE_ENUM_TYPE_10)
 
 Executable Example
 
